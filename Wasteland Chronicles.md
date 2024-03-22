@@ -56,9 +56,9 @@ Wasteland Chronicles offers a unique blend of text-based MMORPG experie
 - Influences resistance to damage and radiation.
 - Affects physical resilience and fatigue recovery.
 #### Charisma
-    - Influences interactions with NPCs and persuasion attempts.
-    - Affects prices in bartering and trading.
-    - Determines success in Charisma-based skill checks (e.g., leading a group).
+- Influences interactions with NPCs and persuasion attempts.
+- Affects prices in bartering and trading.
+- Determines success in Charisma-based skill checks (e.g., leading a group).
 #### Intelligence
 - Determines the number of skill points gained per level.
 - Influences success in Science and Medicine skills.
@@ -193,6 +193,7 @@ Traits can have synergistic effects with specific perks or skills.
 
 - Exposure to radiation or other environmental hazards could cause mutations, which can have both positive and negative effects on the character.
 - Players could choose to embrace mutations or seek ways to cure them, depending on their desired playstyle and roleplaying preferences.
+- Mutations occur based on exposure to certain environments or actions, with a base chance of 5% during such events. Players can acquire perks every 5 levels, with a maximum of 5 active perks at any time. Additional perks can be swapped in at designated "Mutation Stations" found in major settlements.
 ## Part 3:  Wasteland Exploration
 
 ### Game world
@@ -204,7 +205,8 @@ Traits can have synergistic effects with specific perks or skills.
 - The poisonous cloud, a byproduct of the war's environmental destruction, periodically sweeps across the land, posing a constant threat to survival.
 - Players uncover the history of the world, the cause of the apocalypse, and the secrets of the poisonous cloud through exploration, quests, and interactions with NPCs.
 ### Dynamic World Events
-
+- Events are triggered by global player actions, time-based triggers, or specific world states. The backend dynamically adjusts event difficulty based on participant levels and past event outcomes.
+- 
 Introduce large scale events that impact the entire game world, requiring players to collaborate and adapt
 
 - **Weather Anomalies:** A sudden and severe dust storm or radioactive storm sweeps across the wasteland, impacting travel, resource gathering, and combat.
@@ -278,14 +280,13 @@ As players explore the wasteland and complete quests, they can find s
 
 - Wasteland Chronicles utilizes a turn-based combat system with Action Points (AP) determining the number of actions a character can take per turn.
 - AP is influenced by the character's Agility attribute and can be further modified by perks and equipment.
+- Each turn, a player has from 5 to 10 action points (AP) to use on movements, attacks, or item usage. The backend will calculate AP based on equipment weight and character stats. Multiplayer and enemy turns are queued in real-time but executed in a turn-based sequence.
 - Players can choose from various combat actions, such as:
     - **Attack:** Basic attack with equipped weapon, consuming AP based on weapon type and attack type (e.g., aimed shot consuming more AP than a regular shot).
     - **Special Attacks:** Specific attacks unlocked by skills or perks, such as power attacks, disarming strikes, or energy-based abilities.
-    - **Defense:** Enter a defensive stance, increasing damage resistance and reducing incoming damage.
+    - **Defense**  Enter a defensive stance, increasing damage resistance and reducing incoming damage.
     - **Movement:** Move around the battlefield, consuming AP based on distance and terrain.
-
     - **Use Items:** Use consumables like stimpaks or grenades during combat.
-
     - **Reload:** Reload ranged weapons, consuming AP based on weapon type.
 
 - Critical hits deal increased damage and have a chance to inflict additional effects, such as bleeding or stunning.
@@ -299,6 +300,9 @@ As players explore the wasteland and complete quests, they can find s
 
 - Each enemy type has unique attack patterns and behaviors, requiring players to adapt their tactics accordingly.
 - Some enemies may have special abilities or resistances, adding further complexity to combat encounters.
+
+**Enemy AI:**
+- Enemy AI will have preset tactics but adapt to player strategies by switching attack patterns if their current one fails repeatedly. AI difficulty scales with player level and location difficulty.
 ### Combat Difficulty
 
 - Combat difficulty scales with the player's level and group size, ensuring challenging encounters throughout the game.
@@ -378,6 +382,7 @@ High crafting skills could allow for experimentation and improvisation, 
 - Buildings interact with each other to create a dynamic settlement system.
 - Expand on building descriptions to highlight synergistic effects between specific structures.
 - High-level buildings could offer unique benefits and interactions.
+-  Settlement decisions are made through a majority vote system among active players in the settlement. The backend tracks construction progress, requiring real-time days or specific resources to complete based on the project's complexity.
 ### Building Requirements
 
 Each building type has specific requirements for construction:
@@ -410,8 +415,8 @@ Settlements can grow and expand by:
 - **Researching new technologies:** The Research Lab allows players to research new technologies that can improve various aspects of the settlement.
 
 #### Settlement Defense Strategies
-
-Players can use various strategies to defend their settlement:
+- Attacks are initiated based on settlement wealth and defense level. Players receive notifications of impending attacks and can participate in defense through a mini-game or automated defense mechanisms based on their settlement's infrastructure.
+- Players can use various strategies to defend their settlement
 
 - **Defensive structures:** Building walls, turrets, and other defensive structures to deter and repel attackers.
 - **NPC guards:** Assigning NPCs to guard duty, providing additional firepower and manpower during attacks.
