@@ -44,16 +44,41 @@ Wasteland Chronicles offers a unique blend of text-based MMORPG experie
 
 ### Attributes
 
-Players allocate 40 points among the 7 attributes during character creation:
-- **Strength:** Affects physical damage, carrying capacity, and melee weapon effectiveness.
-- **Perception:** Influences accuracy with ranged weapons, awareness of surroundings, and success in certain skill checks.
-- **Endurance:** Determines health points, resistance to damage and radiation, and overall physical resilience.
-- **Charisma:** Affects interactions with NPCs, persuasion attempts, and leadership abilities.
-- **Intelligence:** Influences skill points gained per level, success in Science and Medicine skills, and understanding of lore and technology.
-- **Agility:** Determines action points in combat, movement speed, and success in stealth and evasion.
-- **Luck:** Influences critical hit chance, random encounters, and the outcome of certain events.
+- **Strength:** (Starting range: 1-10)
+    - Affects physical damage dealt in melee combat.
+    - Determines carrying capacity.
+    - Influences success in Strength-based skill checks (e.g., breaking down doors).
+- **Perception:** (Starting range: 1-10)
+    - Influences accuracy with ranged weapons.
+    - Affects awareness of surroundings and enemy detection.
+    - Determines success in Perception-based skill checks (e.g., spotting hidden objects).
+- **Endurance:** (Starting range: 1-10)
+    - Determines maximum health points (HP).
+    - Influences resistance to damage and radiation.
+    - Affects physical resilience and fatigue recovery.
+- **Charisma:** (Starting range: 1-10)
+    - Influences interactions with NPCs and persuasion attempts.
+    - Affects prices in bartering and trading.
+    - Determines success in Charisma-based skill checks (e.g., leading a group).
+- **Intelligence:** (Starting range: 1-10)
+    - Determines the number of skill points gained per level.
+    - Influences success in Science and Medicine skills.
+    - Affects understanding of lore and technology.
+- **Agility:** (Starting range: 1-10)
+    - Determines Action Points (AP) available in combat.
+    - Influences movement speed and evasion.
+    - Determines success in Agility-based skill checks (e.g., sneaking).
+- **Luck:** (Starting range: 1-10)
+    - Influences critical hit chance in combat.
+    - Affects the outcome of random encounters and events.
+    - Determines success in Luck-based skill checks (e.g., gambling).
 
 Each attribute point increases the relevant stat by 1 and affects various gameplay aspects, such as combat damage, skill checks, carrying capacity, and interaction with NPCs.
+
+### Stats:
+- **Maximum Health Points (HP):** Determined by Endurance. Represents the character's overall health and ability to withstand damage.
+- **Action Points (AP):** Determined by Agility. Used to perform actions in combat, such as attacking, moving, or using items.
+- **Carrying Capacity:** Determined by Strength. Limits the amount of weight the character can carry.
 ### Skills
 #### Combat
 
@@ -78,9 +103,23 @@ Highlevel crafting skills allow for experimentation and improvisation, e
 Perks are unlocked every 2 levels, starting at level 2, and some require specific skill levels or other prerequisites.
 
 Perks are categorized into three tiers with increasing power and stricter prerequisites:
-- **Tier 1:** Basic perks like "Strong Back" (increased carrying capacity) or "First Aid" (improved healing effectiveness).
-- **Tier 2:** More powerful perks like "Sniper" (increased ranged accuracy and critical chance) or "Chemist" (craft more potent drugs).
-- **Tier 3:** Highly specialized perks like "Robotics Expert" (control robots) or "Mastermind" (increased influence and persuasion).
+
+- **Tier 1:** (Unlocked at level 2, no prerequisites)
+    - **Strong Back:** Increases carrying capacity.
+    - **First Aid:** Improves healing effectiveness.
+    - **Gunslinger:** Increases accuracy with pistols.
+    - **Commando:** Increases accuracy with automatic weapons.
+    - **Iron Fist:** Increases damage with unarmed and melee weapons.
+- **Tier 2:** (Unlocked at level 4, requires specific skill levels)
+    - **Sniper:** (Requires Ranged Weapons: Adept) Increases ranged accuracy and critical chance.
+    - **Chemist:** (Requires Medicine: Adept) Craft more potent drugs and medical supplies.
+    - **Architect:** (Requires Engineering: Adept) Unlocks advanced building options and reduces construction costs.
+    - **Silver Tongue:** (Requires Speech: Adept) Increases persuasion success and unlocks unique dialogue options.
+
+- **Tier 3:** (Unlocked at level 6, requires specific skill levels and/or quest completion)
+    - **Robotics Expert:** (Requires Science: Expert) Allows for hacking and controlling robots.
+    - **Mastermind:** (Requires Leadership: Expert) Increases influence and persuasion, provides bonuses to group activities.
+    - **Survivalist:** (Requires Endurance: Expert and completion of a specific survival-themed quest) Increases resistance to radiation and harsh environments.
 
 Perk trees can branch out based on character choices and specializations, allowing for deeper customization and unique builds.
 
@@ -89,6 +128,11 @@ Perk trees can branch out based on character choices and specializatio
 ### Traits
  Players can choose up to 2 traits during character creation, providing significant advantages and disadvantages.
 Traits can have synergistic effects with specific perks or skills.
+- **Gifted:** (Intelligence +1, Luck -1)
+- **Strong Back:** (Strength +2, Agility -1)
+- **Fast Metabolism:** (Endurance +1, heals faster, but requires more food)
+- **Bruiser:** (Strength +1, Endurance +1, Intelligence -1)
+- **Savvy:** (Perception +2, Charisma -1)
 ### Character Advancement
 
 - Characters gain experience points (XP) by completing quests, defeating enemies, crafting items, and participating in settlement activities.
