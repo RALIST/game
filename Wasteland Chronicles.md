@@ -14,7 +14,6 @@
 - Foster a strong sense of community through cooperative gameplay and shared goals.
 - Offer a unique blend of strategy, character development, and exploration in a text-based format.
 - Provide a platform for roleplaying and player-driven storytelling.
-
 ### Project Scope
 
 The initial scope focuses on developing the core gameplay loop, including:
@@ -41,7 +40,7 @@ Wasteland Chronicles offers a unique blend of text-based MMORPG experie
 #### Compelling Hook
 
 "In the shadow of the poisonous cloud, forge your destiny in the wasteland. Will you scavenge for survival, build a thriving community, or conquer your rivals? The choice is yours in Wasteland Chronicles, a text-based MMORPG where your actions shape the future of your settlement."
-## Part 2: Game Mechanics - Character System
+## Part 2: Character System
 
 ### Attributes
 
@@ -99,7 +98,7 @@ Traits can have synergistic effects with specific perks or skills.
 
 - Exposure to radiation or other environmental hazards could cause mutations, which can have both positive and negative effects on the character.
 - Players could choose to embrace mutations or seek ways to cure them, depending on their desired playstyle and roleplaying preferences.
-## Part 3: Game Mechanics - Wasteland Exploration
+## Part 3:  Wasteland Exploration
 
 ### Game world
 
@@ -138,6 +137,7 @@ As players explore the wasteland and complete quests, they can find s
  - **Maps:** These maps might show the locations of secret bunkers, hidden oases, or other valuable destinations.
 - **Hard drives:** These hard drives might contain pre-war data with coordinates or information about secret facilities or hidden caches.
  Upon finding and deciphering these items, players can unlock new routes on the world map, expanding their exploration options and leading them to new challenges and rewards.
+
 #### Locations
 
 - Each route contains 10 unique locations with specific descriptions, available resources, and potential quests or events.
@@ -223,7 +223,7 @@ As players explore the wasteland and complete quests, they can find s
 - **Environmental Hazards:** Combat encounters can take place in environments with hazards that can be used to the player's advantage, such as explosive barrels or radioactive zones.
 - **Companion System:** Players may be able to recruit companions who can assist them in combat, providing additional firepower and support.
 
-## Part 5: Game Mechanics - Crafting System
+## Part 5:  Crafting System
 
 ### Crafting Stations
 
@@ -264,7 +264,7 @@ High crafting skills could allow for experimentation and improvisation, 
 - Players can repair their equipment using the Repair skill and appropriate materials.
 - Different levels of degradation can be implemented, with heavily degraded items having significantly reduced stats and requiring more resources to repair.
 
-## Part 6: Game Mechanics - Settlement Building
+## Part 6:  Settlement Building System
 
 ### Building Types
 
@@ -321,7 +321,7 @@ Players can use various strategies to defend their settlement:
 - **NPC guards:** Assigning NPCs to guard duty, providing additional firepower and manpower during attacks.
 - **Player participation:** Players can actively participate in combat during attacks, using their skills and equipment to defend the settlement alongside NPCs.
 
-## Part 7: Game Mechanics - Economy and Trade
+## Part 7:  Economy and Trade System
 
 ### Currency
 
@@ -347,7 +347,7 @@ Players can acquire bottle caps through various means:
 ### Economic Fluctuations
 - The game could feature a dynamic economy where prices and resource availability fluctuate based on player actions and market conditions.
 
-## Part 8: Game Mechanics - Additional Mechanics
+## Part 8: Additional Mechanics
 
 ### Quests
 
