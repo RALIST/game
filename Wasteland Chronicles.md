@@ -277,6 +277,7 @@ High crafting skills could allow for experimentation and improvisation, 
 - **Workshop:** Provides a central location for crafting and modifying weapons, armor, and tools. Upgrading unlocks more advanced crafting options and improves crafting efficiency.
 - **Trading Post** Facilitates trade with other settlements and traveling merchants. Upgrading attracts more traders and improves trade deals.
 - **Defense Structures** Walls, turrets, and other defensive structures protect the settlement from attacks. Upgrading increases their defensive capabilities and offensive power.
+- **Player house**
 
 - Building costs and construction times scale with complexity and upgrade level.
 - Buildings interact with each other to create a dynamic settlement system.
@@ -321,6 +322,34 @@ Players can use various strategies to defend their settlement:
 - **NPC guards:** Assigning NPCs to guard duty, providing additional firepower and manpower during attacks.
 - **Player participation:** Players can actively participate in combat during attacks, using their skills and equipment to defend the settlement alongside NPCs.
 
+### Player housing
+
+The player housing system allows players to own and personalize their own space within settlement. This system adds another layer of depth and immersion to the game, fostering a stronger connection between players and the communities they contribute to.
+
+#### Acquiring Housing
+
+- Players can purchase plots of land within settlements using bottle caps or other in-game currency.
+- The size and location of the plot may influence the cost.
+- Certain reputation levels with the settlement or specific factions might be required to access certain plots.
+
+#### Building and Customization
+
+- Players can construct and customize their houses using a variety of materials and furniture items.
+- Building materials can be acquired through exploration, crafting, or purchasing from vendors.
+- Furniture and decorations can be crafted, found as loot, or purchased from vendors.
+- Players can personalize their houses with different themes, layouts, and functionalities.
+
+#### House Functionality
+
+- Houses can provide storage space for items and resources.
+- Players can display trophies and achievements within their houses.
+- Houses can serve as a social hub for inviting friends and group members.
+- Certain upgrades might allow for crafting stations, resource production, or even NPC vendors within the house.
+#### Benefits of Player Housing
+- **Increased Immersion:** Provides players with a personal space to call their own, enhancing their connection to the game world and community.
+- **Customization and Creativity:** Allows players to express their creativity and personalize their houses to reflect their individual style and preferences.
+- **Utility and Functionality:** Offers practical benefits like storage space, crafting stations, and social gathering areas.
+- **Community Building:** Encourages interaction and collaboration between players as they visit each other's houses and share resources or ideas.
 ## Part 7:  Economy and Trade System
 
 ### Currency
@@ -416,6 +445,11 @@ Players can acquire bottle caps through various means:
 - displays step to create new player
 ##### Player level up interface
 - displays available skill points and attribute points
+#### Player house interface
+- displays player house
+- displays player archivements and trophies
+- displays in-house storage
+- display actions and commands
 ##### Character information interface
 - display current stats and attributes
 - display current positive and negative effects
