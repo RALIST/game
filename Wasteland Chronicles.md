@@ -30,7 +30,6 @@ The initial scope focuses on developing the core gameplay loop, includ
 - More complex crafting systems.
 - Deeper settlement management with resource production, population growth, and defense mechanics.
 - Expansion of the world and lore.
-
 ### Game Overview
 
 Wasteland Chronicles is a text-based MMORPG set in a post-apocalyptic world inspired by the Fallout universe. Players cooperate to rebuild society and survive in a harsh and dangerous environment, facing the ever-present threat of a poisonous cloud that periodically sweeps across the land.
