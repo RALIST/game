@@ -1,33 +1,23 @@
 # Game Design Document (GDD)
 
-### **Part 1: Introduction and Overview**
+## Part 1: Introduction and Overview
 
-  **Game Title:** Wasteland Chronicles
-   **Genre:** Text-based MMORPG with strategy elements
+**Game Title:** Wasteland Chronicles 
+**Genre:** Text-based MMORPG with strategy elements
 **Target Platform(s):** Web browser, Telegram Mini Apps
-**Target Audience:** Fans of Fallout and postapocalyptic settings, MMORPG players who enjoy text-based experiences and collaborative gameplay.
-    
-- ### **Project Goals:**
-    
-    - Create an engaging and immersive text-based MMORPG that captures the essence of the Fallout universe, particularly its dark humor, retro-futuristic aesthetic, and focus on player choice and consequence.
-        
-    - Foster a strong sense of community through cooperative gameplay and shared goals, encouraging players to work together to build their settlements and overcome challenges.
-        
-    - Offer a unique blend of strategy, character development, and exploration in a text-based format, providing depth and complexity while remaining accessible to players who enjoy text-based experiences.
-        
-    - Provide a platform for roleplaying and player-driven storytelling within the game world, allowing players to create their own narratives and shape the world through their actions and decisions.
-        
-- **Project Scope:**
-    
-    - The initial scope focuses on developing the core gameplay loop, including:
-        
-        - Character creation and development using the S.P.E.C.I.A.L. system, skills, perks, and traits.
-            
-        - Exploration and resource gathering in the diverse regions of the wasteland.
-            
-        - Crafting of weapons, armor, tools, and consumables using blueprints and modifications.
-            
-        - Collaborative settlement building and management, including a voting system for prioritizing structures.
+**Target Audience:** Fans of Fallout and postapocalyptic settings, MMORPG players who enjoy text-based experiences and collaborative gameplay.
+### Project goals
+  
+- Create an engaging and immersive text-based MMORPG that captures the essence of the Fallout universe, particularly its dark humor, retro-futuristic aesthetic, and focus on player choice and consequence.
+- Foster a strong sense of community through cooperative gameplay and shared goals, encouraging players to work together to build their settlements and overcome challenges.
+- Offer a unique blend of strategy, character development, and exploration in a text-based format, providing depth and complexity while remaining accessible to players who enjoy text-based experiences.
+- Provide a platform for roleplaying and player-driven storytelling within the game world, allowing players to create their own narratives and shape the world through their actions and decisions.
+### Project Scope
+- The initial scope focuses on developing the core gameplay loop, including:
+Character creation and development using the S.P.E.C.I.A.L. system, skills, perks, and traits.
+Exploration and resource gathering in the diverse regions of the wasteland.
+Crafting of weapons, armor, tools, and consumables using blueprints and modifications.
+Collaborative settlement building and management, including a voting system for prioritizing structures.
             
         - Turn-based combat against hostile creatures and raiders.
             
