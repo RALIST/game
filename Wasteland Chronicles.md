@@ -110,7 +110,8 @@ Increases with various activities, including exploring routes, crafting. 
   - Decreased crafting efficiency (e.g., longer crafting times, increased resource costs).
   - Slower movement speed during exploration.
   Fatigue recovers over time, with the recovery rate being significantly higher when the character is resting in their house.
-Consumables and specific perks can also help reduce fatigue or increase its recovery rate.
+Consumables and specific perks can also help reduce fatigue or increase its recovery rate
+Fatigue accumulates at a rate of 1% per in-game hour of active play and 5% for every hour of combat or intense activity. Resting in a player house reduces fatigue by 10% per in-game hour, while passive activities in the game world reduce it by 3% per hour.
 ##### Balancing notes
 - The rate at which fatigue accumulates should be balanced to prevent players from feeling overly restricted while still encouraging breaks and strategic gameplay.
 - The fatigue recovery rate in player houses should be significant enough to incentivize players to utilize their houses for rest and recovery.
@@ -206,8 +207,7 @@ Traits can have synergistic effects with specific perks or skills.
 - Players uncover the history of the world, the cause of the apocalypse, and the secrets of the poisonous cloud through exploration, quests, and interactions with NPCs.
 ### Dynamic World Events
 - Events are triggered by global player actions, time-based triggers, or specific world states. The backend dynamically adjusts event difficulty based on participant levels and past event outcomes.
-- 
-Introduce large scale events that impact the entire game world, requiring players to collaborate and adapt
+-  The backend should use a weighted system that considers the average level of participants and adjusts the difficulty accordingly. For global triggers, monitor aggregate player actions such as total resources gathered or enemies defeated, and use these to initiate events.
 
 - **Weather Anomalies:** A sudden and severe dust storm or radioactive storm sweeps across the wasteland, impacting travel, resource gathering, and combat.
 - **Faction Conflicts:** War erupts between major factions, changing the political landscape and creating new opportunities and dangers for players.
@@ -303,6 +303,7 @@ As players explore the wasteland and complete quests, they can find s
 
 **Enemy AI:**
 - Enemy AI will have preset tactics but adapt to player strategies by switching attack patterns if their current one fails repeatedly. AI difficulty scales with player level and location difficulty.
+- Enemy AI should adapt by switching attack patterns if a player consistently counters their current strategy. This requires tracking player success against specific enemy types and adjusting AI behavior accordingly. For turn execution, use a queue system that processes actions in sequence but optimizes for minimal latency to maintain
 ### Combat Difficulty
 
 - Combat difficulty scales with the player's level and group size, ensuring challenging encounters throughout the game.
@@ -310,12 +311,11 @@ As players explore the wasteland and complete quests, they can find s
 - Higher difficulty levels offer greater rewards but also pose a greater risk of failure and character death.
 ### Combat Strategies
 
-- Players can employ various strategies to gain an advantage in combat:
-
-    - **Positioning:** Utilize cover and flanking maneuvers to gain tactical advantages.
-    - **Targeting:** Prioritize high-threat enemies or focus fire on specific targets.
-    - **Skill Synergies:** Combine different skills and perks to create powerful combos and maximize damage output.
-    - **Consumables:** Use consumables strategically to heal, buff allies, or cripple enemies.
+Players can employ various strategies to gain an advantage in combat:
+- **Positioning:** Utilize cover and flanking maneuvers to gain tactical advantages.
+- **Targeting:** Prioritize high-threat enemies or focus fire on specific targets.
+- **Skill Synergies:** Combine different skills and perks to create powerful combos and maximize damage output.
+- **Consumables:** Use consumables strategically to heal, buff allies, or cripple enemies.
 ### Additional Combat Mechanics
 
 - **Stealth:** Players can utilize stealth to avoid combat encounters or gain a surprise attack advantage.
@@ -383,6 +383,7 @@ High crafting skills could allow for experimentation and improvisation, 
 - Expand on building descriptions to highlight synergistic effects between specific structures.
 - High-level buildings could offer unique benefits and interactions.
 -  Settlement decisions are made through a majority vote system among active players in the settlement. The backend tracks construction progress, requiring real-time days or specific resources to complete based on the project's complexity.
+- Votes are tallied in real-time but are only finalized at a specific cutoff time each day (e.g., 00:00 UTC). The backend should track synergies between buildings, such as a water purification plant increasing the efficiency of a farm, and adjust resource outputs accordingly.
 ### Building Requirements
 
 Each building type has specific requirements for construction:
@@ -426,6 +427,8 @@ Settlements can grow and expand by:
 
 The player housing system allows players to own and personalize their own space within settlement. This system adds another layer of depth and immersion to the game, fostering a stronger connection between players and the communities they contribute to.
 
+- Player houses offer personal crafting stations, storage, and rest areas. The backend should manage resource production from houses as individual player instances. Security measures include permission settings for visiting players, preventing unauthorized access to the house or its resources.
+
 #### Acquiring Housing
 
 - Players can purchase plots of land within settlements using bottle caps or other in-game currency.
@@ -451,6 +454,8 @@ The player housing system allows players to own and personalize their�
 - **Utility and Functionality:** Offers practical benefits like storage space, crafting stations, and social gathering areas.
 - **Community Building:** Encourages interaction and collaboration between players as they visit each other's houses and share resources or ideas.
 ## Part 7:  Economy and Trade System
+
+- Currency is earned from quests, trading, and exploration. Currency sinks include settlement contributions, crafting, and item repair. Player trading is facilitated through a secure in-game marketplace with transaction fees to prevent inflation.
 
 ### Currency
 
