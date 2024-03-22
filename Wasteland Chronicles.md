@@ -13,29 +13,24 @@
 - Offer a unique blend of strategy, character development, and exploration in a text-based format, providing depth and complexity while remaining accessible to players who enjoy text-based experiences.
 - Provide a platform for roleplaying and player-driven storytelling within the game world, allowing players to create their own narratives and shape the world through their actions and decisions.
 ### Project Scope
-- The initial scope focuses on developing the core gameplay loop, including:
-Character creation and development using the S.P.E.C.I.A.L. system, skills, perks, and traits.
-Exploration and resource gathering in the diverse regions of the wasteland.
-Crafting of weapons, armor, tools, and consumables using blueprints and modifications.
-Collaborative settlement building and management, including a voting system for prioritizing structures.
-            
-        - Turn-based combat against hostile creatures and raiders.
-            
-        - Social interaction and trading between players.
-            
-    - Future expansions may include:
-        
-        - Guilds and player factions for deeper social interaction and competition.
-            
-        - Player-versus-player (PvP) and expanded cooperative gameplay elements.
-            
-        - More complex crafting systems with additional blueprints and modifications.
-            
-        - Deeper settlement management with resource production, population growth, and defense mechanics.
-            
-        - Expansion of the world and lore through additional quests, events, and storylines.
-            
-- **Game Overview:**
+The initial scope focuses on developing the core gameplay loop, including:
+
+- Character creation and development using the S.P.E.C.I.A.L. system, skills, perks, and traits.
+- Exploration and resource gathering in the diverse regions of the wasteland.
+- Crafting of weapons, armor, tools, and consumables using blueprints and modifications.
+- Collaborative settlement building and management, including a voting system for prioritizing structures.
+ - Turn-based combat against hostile creatures and raiders.
+Social interaction and trading between players.
+Future expansions may include:
+Guilds and player factions for deeper social interaction and competition.
+ Player-versus-player (PvP) and expanded cooperative gameplay elements.
+
+  More complex crafting systems with additional blueprints and modifications.
+
+- Deeper settlement management with resource production, population growth, and defense mechanics.
+
+Expansion of the world and lore through additional quests, events, and storylines.
+### Game Overview:
     
     - **Game Concept:** Wasteland Chronicles is a text-based MMORPG set in a post-apocalyptic world inspired by the Fallout universe. Players cooperate to rebuild society and survive in a harsh and dangerous environment, facing the ever-present threat of a poisonous cloud that periodically sweeps across the land.
         
