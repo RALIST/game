@@ -76,56 +76,70 @@ Each attribute point increases the relevant stat by 1 and affects var
 
 ### Stats:
 #### Maximum Health Points (HP)
-Determined by Endurance. Represents the character's overall health and ability to withstand damage.
+
+>**Determined by Endurance.**
+>Represents the character's overall health and ability to withstand damage.
 #### Action Points (AP)
-Determined by Agility. Used to perform actions in combat, such as attacking, moving, or using items.
+
+>**Determined by Agility.**
+>Used to perform actions in combat, such as attacking, moving, or using items.
 
 #### Carrying Capacity 
-Determined by Strength. Limits the amount of weight the character can carry.
+
+>**Determined by Strength.** 
+>Limits the amount of weight the character can carry.
 #### Healing Rate
-**Influences how quickly the character recovers health points (HP) over time.**
-> Affected by Endurance and the Medicine skill.
+
+>**Influences how quickly the character recovers health points (HP) over time.**
+>Affected by Endurance and the Medicine skill.
 >Can be further increased by perks, consumables, and medical facilities within settlements.
-The recovery rate being significantly higher when the character is resting in their house.
+>The recovery rate being significantly higher when the character is resting in their house.
 
 - Base healing rate is **1 HP per minute**.
 - Endurance increases healing rate by **0.1 HP per minute per point**.
 - Medicine skill increases healing rate by **5% per skill level**.
 - Perks, consumables, and medical facilities can further increase healing rate.
 #### Critical Chance
-Represents the chance to land a critical hit in combat, dealing increased damage.
-Affected by Luck and specific combat skills (e.g., Sniper perk for ranged weapons).
-Can be further increased by perks, equipment modifications, and consumables.
+
+>Represents the chance to land a critical hit in combat, dealing increased damage.
+>Affected by Luck and specific combat skills (e.g., Sniper perk for ranged weapons).
+>Can be further increased by perks, equipment modifications, and consumables.
 #### Radiation Resistance
-Determines the character's resistance to radiation exposure.
-Affected by Endurance and can be further increased by perks
+
+>Determines the character's resistance to radiation exposure.
+>Affected by Endurance and can be further increased by perks
 #### Reputation
-Represents the character's standing with settlement
-Can be decreased by actions against settlement (stealing and so on).
-Can be descreased by other players.
-Higher reputation unlocks unique rewards, special services and options in settlement. Also player's voting power huge depends  on reputation
+
+>Represents the character's standing with settlement
+>Can be decreased by actions against settlement (stealing and so on).
+>Can be descreased by other players.
+>Higher reputation unlocks unique rewards, special services and options in settlement. Also player's voting power huge depends  on reputation 
 #### Karma
-Represents the character's overall moral compass
-Can be increased by helping others, showing mercy, and making selfless decisions.
-Can be decreased by harming innocents, stealing, and making cruel or selfish choices.
-Karma can influence NPC interactions, quest outcomes, trigger specific encounters.
+
+>Represents the character's overall moral compass
+>Can be increased by helping others, showing mercy, and making selfless decisions.
+>Can be decreased by harming innocents, stealing, and making cruel or selfish choices.
+>Karma can influence NPC interactions, quest outcomes, trigger specific encounters.
 #### Fatigue
-Represents the character's level of exhaustion and affects their overall performance.
-Increases with various activities, including exploring routes, crafting. Higher fatigue levels can lead to:
-   - Reduced combat effectiveness (e.g., lower accuracy, damage output, and AP regeneration).
-  - Decreased crafting efficiency (e.g., longer crafting times, increased resource costs).
-  - Slower movement speed during exploration.
-  Fatigue recovers over time, with the recovery rate being significantly higher when the character is resting in their house.
-Consumables and specific perks can also help reduce fatigue or increase its recovery rate
-Fatigue accumulates at a rate of 1% per in-game hour of active play and 5% for every hour of combat or intense activity. Resting in a player house reduces fatigue by 10% per in-game hour, while passive activities in the game world reduce it by 3% per hour.
-##### Balancing notes
-- The rate at which fatigue accumulates should be balanced to prevent players from feeling overly restricted while still encouraging breaks and strategic gameplay.
-- The fatigue recovery rate in player houses should be significant enough to incentivize players to utilize their houses for rest and recovery.
-- Different activities should contribute to fatigue at varying rates, with more strenuous activities like combat causing faster fatigue accumulation.
+
+>Represents the character's level of exhaustion and affects their overall performance.
+>Increases with various activities, including exploring routes, crafting.
+
+**Higher fatigue levels can lead to:**
+- Reduced combat effectiveness (e.g., lower accuracy, damage output, and AP regeneration).
+- Decreased crafting efficiency (e.g., longer crafting times, increased resource costs).
+- Slower movement speed during exploration.
+Accumulation:
+- 1% per in-game hour of active play
+- 5% for every hour of combat or intense activity
+Reducing:
+- 10% per in-game hour in player's house
+- 3% per hour while passive activities in settlement
 #### Level
-Just a player's level
+
+>Just a player's level
 #### Experience (XP)
-Current player's experience
+>Current player's experience
 
 ### Skills
 #### ==Combat==
