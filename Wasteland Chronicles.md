@@ -122,12 +122,12 @@ Just a player's level
 Current player's experience
 
 ### Skills
-#### Combat
+#### ==Combat==
 ##### Ranged Weapons
 Governs the use of all ranged weapons, including pistols, rifles, SMGs, miniguns, rocket launchers, flamethrowers, laser weapons, and plasma weapons. Higher levels increase accuracy, damage, critical hit chance, and unlock special combat maneuvers and weapon-specific attacks, including energy-based abilities.
 ##### Melee Weapons
 Governs the use of melee weapons and unarmed. Higher levels increase damage, critical hit chance, and unlock special attacks like disarming strikes or power attacks.
-#### Crafting
+#### ==Crafting==
 ##### Repair
 Allows for repairing weapons, armor, and tools. Higher skill levels allow for repairing more complex items.
 ##### Science
@@ -138,13 +138,18 @@ Allows for healing injuries and crafting medical supplies. Higher skill
 Used for building and upgrading structures in the settlement. Higher skill levels unlock more advanced structures and upgrades.
 
 High level crafting skills allow for experimentation and improvisation, enabling players to create unique modifications or even entirely new items
-#### Social
+#### ==Social==
 
-  - **Speech:** Influences NPC interactions and persuasion attempts. Higher skill levels unlock unique dialogue options and increase persuasion success.
-  - **Barter:** Affects trade prices and negotiation success. Higher skill levels lead to better deals and more profitable trades.
- - **Gambling:** Used for playing games of chance and winning bottle caps. Higher skill levels increase the chance of winning.
- - **Persuasion:** Influences NPC interactions and quest outcomes. Higher skill levels unlock additional quest options and influence NPC behavior.
-  - **Leadership:** Provides bonuses to group activities and settlement management. Higher skill levels improve group morale, productivity, and settlement efficiency.
+##### Speech
+Influences NPC interactions and persuasion attempts. Higher skill levels unlock unique dialogue options and increase persuasion success.
+##### Barter
+Affects trade prices and negotiation success. Higher skill levels lead to better deals and more profitable trades.
+##### Gambling
+Used for playing games of chance and winning bottle caps. Higher skill levels increase the chance of winning.
+##### Persuasion
+Influences NPC interactions and quest outcomes. Higher skill levels unlock additional quest options and influence NPC behavior.
+##### Leadership
+Provides bonuses to group activities and settlement management. Higher skill levels improve group morale, productivity, and settlement efficiency.
 ### Perks
 
 Perks are unlocked every 2 levels, starting at level 2, and some require specific skill levels or other prerequisites.
