@@ -500,7 +500,6 @@ Players can acquire bottle caps through various means:
 - Text-based interface with menus, descriptions, and interactive commands.
 - The interface is designed to be clear, concise, and easy to navigate using text commands.
 - The UI could be designed to resemble a Pip-Boy from the Fallout universe, displaying information in a retro-futuristic style.
-
 ##### Navigation and Menus
 - Players navigate through menus using simple text commands and keywords.
 - The command system should be intuitive and recognize synonyms and abbreviations to make navigation efficient and user-friendly.
@@ -510,58 +509,60 @@ Players can acquire bottle caps through various means:
 - The game should recognize a variety of synonyms and abbreviations for commands.
 - Implement a context-sensitive command system where available commands change depending on the player's current situation and surroundings.
 
-#### Interfaces
+#### Game interfaces
 
+##### Player creation interface
+- displays step to create new player
+##### Player level up interface
+- displays available skill points and attribute points
+##### Character information interface
+- display current stats and attributes
+- display current positive and negative effects
+##### Player inventory interface
+- displays items with description
+- displays equippied items
+- displays usable items
+- displays quest items
 ##### Feedback and Information Interface
-
 - Detailed descriptions provide feedback on actions and immerse players in the world.
 - Descriptions should be vivid and engaging, painting a picture of the environment, characters, and events in the player's mind.
 - The UI displays information about character stats, inventory, crafting, settlement status, and other relevant game elements.
 - The information should be presented clearly and concisely.
 ###### Error Handling and Feedback
-
 - The UI provides clear and informative feedback to players when actions fail or encounter issues.
 - This includes specific error messages, visual or audio cues, and suggestions for alternative actions.
 
+##### Chat 
+- **Channels:** Public channels for general chat, faction chat, and group chat.
+- **Private messages:** Players can send private messages to individual players.
+- **Emotes:** Players can use emotes to express emotions and actions in chat.
+##### Group
+- **Form groups:** Create and manage groups with other players.
+- **Invite players:** Invite other players to join their group.
+- **Assign roles:** Assign roles within the group, such as leader, scout, or medic.
+- **Coordinate activities:** Share quest objectives, track group resources, and plan strategies.
 
-- **Chat Features:**
-    - **Channels:** Public channels for general chat, faction chat, and group chat.
-    - **Private messages:** Players can send private messages to individual players.
-    - **Emotes:** Players can use emotes to express emotions and actions in chat.
-- **Group Interface:**
-    - **Form groups:** Create and manage groups with other players.
-    - **Invite players:** Invite other players to join their group.
-    - **Assign roles:** Assign roles within the group, such as leader, scout, or medic.
-    - **Coordinate activities:** Share quest objectives, track group resources, and plan strategies.
-- **Trading Interface:**
-    - **Set up personal shops:** Display items for sale and set prices.
-    - **Browse other players' shops:** Search for specific items or browse by category.
-    - **Engage in direct trades:** Trade items directly with other players, including barter options.
-    - **View item descriptions:** See detailed information about items before buying or trading.
-
-#### Additional UI Features
-
-##### World Map Interface
-
+##### Trading
+- **Set up personal shops:** Display items for sale and set prices.
+- **Browse other players' shops:** Search for specific items or browse by category.
+- **Engage in direct trades:** Trade items directly with other players, including barter options.
+- **View item descriptions:** See detailed information about items before buying or trading.
+##### World Map
 - Displays the different routes and locations within the wasteland.
 - Shows the player's current location and progress on each route.
 - Allows players to select their destination and track their travel progress.
 - Provides information about each location, such as resource availability, potential dangers, and available quests.
-
-##### Crafting Interface
-
+##### Crafting
 - Displays available blueprints and modifications for each crafting station.
 - Shows required materials and skill levels for crafting each item.
 - Allows players to select modifications and customize their crafted items.
 - Provides information about the effects and stats of each modification.
-
-##### Settlement Management Interface
+##### Settlement Management
 - Provides an overview of the settlement's status, including resource levels, population, happiness, and defenses.
 - Allows players to manage resources, assign jobs to NPCs, and prioritize building construction and upgrades.
 - Displays information about each building's function, upgrade levels, and resource production.
 - Shows the current voting status for prioritized building construction.
-
-##### Combat Interface
+##### Combat
 - Displays the battlefield, including enemy positions and environmental hazards.
 - Shows character stats, AP, and available combat actions.
 - Allows players to select targets, choose combat actions, and use items during combat.
