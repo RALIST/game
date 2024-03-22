@@ -103,25 +103,26 @@ Traits can have synergistic effects with specific perks or skills.
 - Upon reaching certain XP thresholds, characters level up.
 - Each level grants the player attribute points and skill points for further character development and customization.
 
-### Mutations:
+### Mutations
 
 - Exposure to radiation or other environmental hazards could cause mutations, which can have both positive and negative effects on the character.
 - Players could choose to embrace mutations or seek ways to cure them, depending on their desired playstyle and roleplaying preferences.
 
 ## Part 3: Game Mechanics - Wasteland Exploration
 
-#### Game world
+### Game world
 
-**Lore and Story:**
+#### Lore and Story
 
 - Wasteland Chronicles is set in a post-apocalyptic world where the remnants of society struggle to rebuild after a devastating nuclear war.
 - The game world is filled with remnants of the past, offering clues about the events that led to the apocalypse and the state of the world before the war.
 - The poisonous cloud, a byproduct of the war's environmental destruction, periodically sweeps across the land, posing a constant threat to survival.
 - Players uncover the history of the world, the cause of the apocalypse, and the secrets of the poisonous cloud through exploration, quests, and interactions with NPCs.
 
-**Dynamic World Events:**
+#### Dynamic World Events
 
-Introduce large-scale events that impact the entire game world, requiring players to collaborate and adapt:
+Introduce large scale events that impact the entire game world, requiring players to collaborate and adapt
+
 - **Weather Anomalies:** A sudden and severe dust storm or radioactive storm sweeps across the wasteland, impacting travel, resource gathering, and combat.
 - **Faction Conflicts:** War erupts between major factions, changing the political landscape and creating new opportunities and dangers for players.
 - **Emergence of New Threats:** A new and powerful enemy emerges in the wasteland, requiring players to band together and find ways to defeat it.
@@ -133,7 +134,7 @@ Integrate lore elements into the game world through environmental story
 Players can uncover the history of the world, the cause of the apocalypse, and the secrets of thepoisonous cloud through exploration, quests, and interactions with NPCs.
 
 Hidden secrets and puzzles within locations can reveal lore, provide access to rare resources, or unlock special encounters.
-##### Routes
+#### Routes
 
 - The wasteland is divided into 5 distinct routes with increasing difficulty and resource rarity:
   - **Route to the Safe Haven:** This route leads to a small, fortified settlement that serves as a safe haven for travelers and traders. It provides basic resources, shelter, and opportunities for trade. This route is relatively safe and serves as a starting point for new players.
@@ -164,13 +165,12 @@ As players explore the wasteland and complete quests, they can find s
 - **Route to the Pre-War Military Base:** This route can be unlocked by finding a map hidden in the Ruined City. The military base contains valuable pre-war technology, weapons, and information, but it is also heavily guarded by automated defenses and powerful robots.
 - **Route to the Secret Research Facility:** This route can be unlocked by completing a quest for a specific faction. The research facility contains advanced scientific equipment and research data that can be used to develop new technologies and upgrades for settlements.
 - **Route to the Lost Vault:** This route can be unlocked by deciphering a hard drive found in the Forgotten Bunker. The Lost Vault is a legendary pre-war vault that is rumored to contain vast riches and advanced technology. However, it is also said to be protected by deadly traps and security systems.
-##### Group Completion
+#### Group Completion
 
 - Players can form groups to complete routes together, combining their skills and resources to overcome challenges more effectively.
 - Group completion can provide bonuses to experience gain and resource gathering, encouraging cooperative gameplay.
 - **Clarification:** All players in the group need to be present at the final location to complete the route and share the rewards.
-
-##### Death Mechanics
+#### Death Mechanics
 
 - If a player dies during a route, they will lose all or part of their equipment.
 - The amount of equipment lost can depend on the difficulty of the route and the circumstances of the player's death.
