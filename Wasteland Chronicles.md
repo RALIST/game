@@ -44,34 +44,34 @@ Wasteland Chronicles offers a unique blend of text-based MMORPG experie
 
 ### Attributes
 
-- **Strength:** (Starting range: 1-10)
-    - Affects physical damage dealt in melee combat.
-    - Determines carrying capacity.
-    - Influences success in Strength-based skill checks (e.g., breaking down doors).
-- **Perception:** (Starting range: 1-10)
-    - Influences accuracy with ranged weapons.
-    - Affects awareness of surroundings and enemy detection.
-    - Determines success in Perception-based skill checks (e.g., spotting hidden objects).
-- **Endurance:** (Starting range: 1-10)
-    - Determines maximum health points (HP).
-    - Influences resistance to damage and radiation.
-    - Affects physical resilience and fatigue recovery.
-- **Charisma:** (Starting range: 1-10)
+#### Strength
+- Affects physical damage dealt in melee combat.
+- Determines carrying capacity.
+- Influences success in Strength-based skill checks (e.g., breaking down doors).
+#### Perception
+- Influences accuracy with ranged weapons.
+- Affects awareness of surroundings and enemy detection.
+- Determines success in Perception-based skill checks (e.g., spotting hidden objects).
+#### Endurance
+- Determines maximum health points (HP).
+- Influences resistance to damage and radiation.
+- Affects physical resilience and fatigue recovery.
+#### Charisma
     - Influences interactions with NPCs and persuasion attempts.
     - Affects prices in bartering and trading.
     - Determines success in Charisma-based skill checks (e.g., leading a group).
-- **Intelligence:** (Starting range: 1-10)
-    - Determines the number of skill points gained per level.
-    - Influences success in Science and Medicine skills.
-    - Affects understanding of lore and technology.
-- **Agility:** (Starting range: 1-10)
-    - Determines Action Points (AP) available in combat.
-    - Influences movement speed and evasion.
-    - Determines success in Agility-based skill checks (e.g., sneaking).
-- **Luck:** (Starting range: 1-10)
-    - Influences critical hit chance in combat.
-    - Affects the outcome of random encounters and events.
-    - Determines success in Luck-based skill checks (e.g., gambling).
+#### Intelligence
+- Determines the number of skill points gained per level.
+- Influences success in Science and Medicine skills.
+- Affects understanding of lore and technology.
+#### Agility
+- Determines Action Points (AP) available in combat.
+- Influences movement speed and evasion.
+- Determines success in Agility-based skill checks (e.g., sneaking).
+#### Luck
+- Influences critical hit chance in combat.
+- Affects the outcome of random encounters and events.
+- Determines success in Luck-based skill checks (e.g., gambling).
 
 Each attribute point increases the relevant stat by 1 and affects various gameplay aspects, such as combat damage, skill checks, carrying capacity, and interaction with NPCs.
 
@@ -86,6 +86,7 @@ Determined by Strength. Limits the amount of weight the character can�
 Influences how quickly the character recovers health points (HP) over time.
 Affected by Endurance and the Medicine skill.
 Can be further increased by perks, consumables, and medical facilities within settlements.
+The recovery rate being significantly higher when the character is resting in their house.
 #### Critical Chance
 Represents the chance to land a critical hit in combat, dealing increased damage.
 Affected by Luck and specific combat skills (e.g., Sniper perk for ranged weapons).
@@ -110,23 +111,33 @@ Increases with various activities, including exploring routes, crafting. 
   - Decreased crafting efficiency (e.g., longer crafting times, increased resource costs).
   - Slower movement speed during exploration.
   Fatigue recovers over time, with the recovery rate being significantly higher when the character is resting in their house.
-  Consumables and specific perks can also help reduce fatigue or increase its recovery rate.
+Consumables and specific perks can also help reduce fatigue or increase its recovery rate.
+##### Balancing notes
+- The rate at which fatigue accumulates should be balanced to prevent players from feeling overly restricted while still encouraging breaks and strategic gameplay.
+- The fatigue recovery rate in player houses should be significant enough to incentivize players to utilize their houses for rest and recovery.
+- Different activities should contribute to fatigue at varying rates, with more strenuous activities like combat causing faster fatigue accumulation.
 #### Level
+Just a player's level
 #### Experience (XP)
-
+Current player's experience
 
 ### Skills
 #### Combat
-
- - **Ranged Weapons:** Governs the use of all ranged weapons, including pistols, rifles, SMGs, miniguns, rocket launchers, flamethrowers, laser weapons, and plasma weapons. Higher levels increase accuracy, damage, critical hit chance, and unlock special combat maneuvers and weapon-specific attacks, including energy-based abilities.
-  - **Melee Weapons:** Governs the use of melee weapons and unarmed. Higher levels increase damage, critical hit chance, and unlock special attacks like disarming strikes or power attacks.
+##### Ranged Weapons
+Governs the use of all ranged weapons, including pistols, rifles, SMGs, miniguns, rocket launchers, flamethrowers, laser weapons, and plasma weapons. Higher levels increase accuracy, damage, critical hit chance, and unlock special combat maneuvers and weapon-specific attacks, including energy-based abilities.
+##### Melee Weapons
+Governs the use of melee weapons and unarmed. Higher levels increase damage, critical hit chance, and unlock special attacks like disarming strikes or power attacks.
 #### Crafting
+##### Repair
+Allows for repairing weapons, armor, and tools. Higher skill levels allow for repairing more complex items.
+##### Science
+Used for crafting advanced items and researching new technologies. Higher skill levels unlock more complex recipes and research projects.
+##### Medicine
+Allows for healing injuries and crafting medical supplies. Higher skill levels improve healing effectiveness and unlock advanced medical procedures.
+##### Engineering
+Used for building and upgrading structures in the settlement. Higher skill levels unlock more advanced structures and upgrades.
 
-  - **Repair:** Allows for repairing weapons, armor, and tools. Higher skill levels allow for repairing more complex items.
-  - **Science:** Used for crafting advanced items and researching new technologies. Higher skill levels unlock more complex recipes and research projects.
-  - **Medicine:** Allows for healing injuries and crafting medical supplies. Higher skill levels improve healing effectiveness and unlock advanced medical procedures.
-  - **Engineering:** Used for building and upgrading structures in the settlement. Higher skill levels unlock more advanced structures and upgrades.
-Highlevel crafting skills allow for experimentation and improvisation, enabling players to create unique modifications or even entirely new items
+High level crafting skills allow for experimentation and improvisation, enabling players to create unique modifications or even entirely new items
 #### Social
 
   - **Speech:** Influences NPC interactions and persuasion attempts. Higher skill levels unlock unique dialogue options and increase persuasion success.
