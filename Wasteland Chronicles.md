@@ -187,7 +187,7 @@ Allows for healing injuries and crafting medical supplies. Higher skill
 Used for building and upgrading structures in the settlement. Higher skill levels unlock more advanced structures and upgrades.
 
 High level crafting skills allow for experimentation and improvisation, enabling players to create unique modifications or even entirely new items
-#### ==Social==
+#### Social
 
 ##### Speech
 Influences NPC interactions and persuasion attempts. Higher skill levels unlock unique dialogue options and increase persuasion success.
