@@ -104,42 +104,71 @@ Each attribute point increases the relevant stat by 1 and affects var
 >Represents the chance to land a critical hit in combat, dealing increased damage.
 >Affected by Luck and specific combat skills (e.g., Sniper perk for ranged weapons).
 >Can be further increased by perks, equipment modifications, and consumables.
+
+- Base critical chance is **5%**.
+- Luck increases critical chance by **1% per point**.
+- Combat skills and perks can provide additional critical chance bonuses.
+- Equipment modifications and consumables can also increase critical chance.
 #### Radiation Resistance
 
 >Determines the character's resistance to radiation exposure.
 >Affected by Endurance and can be further increased by perks
+
+- Base radiation resistance is **0%**.
+- Endurance increases radiation resistance by **2% per point**.
+- Perks, equipment, and consumables can further increase radiation resistance.
 #### Reputation
 
 >Represents the character's standing with settlement
 >Can be decreased by actions against settlement (stealing and so on).
 >Can be descreased by other players.
->Higher reputation unlocks unique rewards, special services and options in settlement. Also player's voting power huge depends  on reputation 
+>Higher reputation unlocks unique rewards, special services and options in settlement. 
+>Also player's voting power huge depends  on reputation
+
+- Starts at **Neutral**
 #### Karma
 
 >Represents the character's overall moral compass
 >Can be increased by helping others, showing mercy, and making selfless decisions.
 >Can be decreased by harming innocents, stealing, and making cruel or selfish choices.
 >Karma can influence NPC interactions, quest outcomes, trigger specific encounters.
+
+- Starts at **Neutral**
 #### Fatigue
 
 >Represents the character's level of exhaustion and affects their overall performance.
 >Increases with various activities, including exploring routes, crafting.
 
+- Starts at **0**
+
 **Higher fatigue levels can lead to:**
 - Reduced combat effectiveness (e.g., lower accuracy, damage output, and AP regeneration).
 - Decreased crafting efficiency (e.g., longer crafting times, increased resource costs).
 - Slower movement speed during exploration.
-Accumulation:
+
+**Accumulation**:
 - 1% per in-game hour of active play
 - 5% for every hour of combat or intense activity
-Reducing:
+
+**Reducing**:
 - 10% per in-game hour in player's house
 - 3% per hour while passive activities in settlement
 #### Level
 
 >Just a player's level
+
+- Each level grants **1 attribute points** and **3 skill points**.
 #### Experience (XP)
+
 >Current player's experience
+
+- The amount of XP required to level up increases with each level.
+```
+# Get exp for level
+const mod = level / 2
+Math.floor(1000 * mod * (level - 1))
+```
+
 
 ### Skills
 #### ==Combat==
