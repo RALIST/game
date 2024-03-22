@@ -56,82 +56,55 @@ Wasteland Chronicles offers a unique blend of text-based MMORPG experie
     - **Intelligence:** Influences skill points gained per level, success in Science and Medicine skills, and understanding of lore and technology.
     - **Agility:** Determines action points in combat, movement speed, and success in stealth and evasion.
     - **Luck:** Influences critical hit chance, random encounters, and the outcome of certain events.
-    - Each attribute point increases the relevant stat by 1 and affects various gameplay aspects, such as combat damage, skill checks, carrying capacity, and interaction with NPCs.
+- Each attribute point increases the relevant stat by 1 and affects various gameplay aspects, such as combat damage, skill checks, carrying capacity, and interaction with NPCs.
 
 **Skills:**
 
 - **Combat:**
     - **Ranged Weapons:** Governs the use of all ranged weapons, including pistols, rifles, SMGs, miniguns, rocket launchers, flamethrowers, laser weapons, and plasma weapons. Higher levels increase accuracy, damage, critical hit chance, and unlock special combat maneuvers and weapon-specific attacks, including energy-based abilities.
-    - **Melee Weapons:** Governs the use of melee weapons. Higher levels increase damage, critical hit chance, and unlock special attacks like disarming strikes or power attacks.
-    - **Unarmed:** Governs unarmed combat. Higher levels increase damage, critical hit chance, and unlock special attacks like knockdowns or stunning blows.
+    - **Melee Weapons:** Governs the use of melee weapons and unarmed. Higher levels increase damage, critical hit chance, and unlock special attacks like disarming strikes or power attacks.
+
 - **Crafting:**
     - **Repair:** Allows for repairing weapons, armor, and tools. Higher skill levels allow for repairing more complex items.
     - **Science:** Used for crafting advanced items and researching new technologies. Higher skill levels unlock more complex recipes and research projects.
     - **Medicine:** Allows for healing injuries and crafting medical supplies. Higher skill levels improve healing effectiveness and unlock advanced medical procedures.
-        
     - **Engineering:** Used for building and upgrading structures in the settlement. Higher skill levels unlock more advanced structures and upgrades.
-        
-    - **Cooking:** Allows for preparing food and drinks with various effects. Higher skill levels unlock more complex recipes and food with stronger effects.
-    - Highlevel crafting skills allow for experimentation and improvisation, enabling players to create unique modifications or even entirely new items
+- High level crafting skills allow for experimentation and improvisation, enabling players to create unique modifications or even entirely new items
 
 - **Social:**
     
     - **Speech:** Influences NPC interactions and persuasion attempts. Higher skill levels unlock unique dialogue options and increase persuasion success.
-        
     - **Barter:** Affects trade prices and negotiation success. Higher skill levels lead to better deals and more profitable trades.
-        
     - **Gambling:** Used for playing games of chance and winning bottle caps. Higher skill levels increase the chance of winning.
-        
     - **Persuasion:** Influences NPC interactions and quest outcomes. Higher skill levels unlock additional quest options and influence NPC behavior.
-        
     - **Leadership:** Provides bonuses to group activities and settlement management. Higher skill levels improve group morale, productivity, and settlement efficiency.
-        
 
 **Perks:**
 
 - Perks are unlocked every 2 levels, starting at level 2, and some require specific skill levels or other prerequisites.
-    
+
 - Perks are categorized into three tiers with increasing power and stricter prerequisites:
-    
     - **Tier 1:** Basic perks like "Strong Back" (increased carrying capacity) or "First Aid" (improved healing effectiveness).
-        
     - **Tier 2:** More powerful perks like "Sniper" (increased ranged accuracy and critical chance) or "Chemist" (craft more potent drugs).
-        
     - **Tier 3:** Highly specialized perks like "Robotics Expert" (control robots) or "Mastermind" (increased influence and persuasion).
-        
+
 - Perk trees can branch out based on character choices and specializations, allowing for deeper customization and unique builds.
-    
+
 - **Additional Perks:** Some perks could require completing challenging or hidden achievements, encouraging exploration and experimentation.
-    
 
 **Traits:**
 
 - Players can choose up to 2 traits during character creation, providing significant advantages and disadvantages.
-    
 - Traits can have synergistic effects with specific perks or skills.
-    
 
 **Character Advancement:**
 
 - Characters gain experience points (XP) by completing quests, defeating enemies, crafting items, and participating in settlement activities.
-    
 - Upon reaching certain XP thresholds, characters level up.
-    
 - Each level grants the player attribute points and skill points for further character development and customization.
-    
-
-**Specialization System:**
-
-- Wasteland Chronicles could implement a specialization system similar to the "Tag Skills" in Fallout: New Vegas.
-    
-- Players can choose to specialize in certain areas, such as combat, crafting, or social interaction, gaining unique bonuses and abilities related to their chosen specialization.
-    
-- Specializing in one area might come at the cost of reduced effectiveness in others, encouraging players to make strategic choices about their character's development.
-    
 
 **Mutations:**
 
-- If mutations are implemented, they could function similarly to those in the Fallout series.
 - Exposure to radiation or other environmental hazards could cause mutations, which can have both positive and negative effects on the character.
 - Players could choose to embrace mutations or seek ways to cure them, depending on their desired playstyle and roleplaying preferences.
 
@@ -142,16 +115,13 @@ Wasteland Chronicles offers a unique blend of text-based MMORPG experie
 - The world map displays 5 routes with increasing difficulty and resource rarity:
     
     - **Route to the Safe Haven:** This route leads to a small, fortified settlement that serves as a safe haven for travelers and traders. It provides basic resources, shelter, and opportunities for trade. This route is relatively safe and serves as a starting point for new players.
-        
     - **Route to the Ruined City:** This route leads to the ruins of a once-thriving city. The city is now filled with dangers, but also holds opportunities for finding advanced loot and remnants of pre-war technology. This route is more challenging than the Safe Haven route and offers greater rewards for experienced players.
-        
     - **Route to the Radioactive Wasteland:** This route leads to a desolate wasteland with high levels of radiation. Mutated creatures roam the wasteland, and resources are scarce. However, this route also holds the potential for finding rare and valuable materials needed for crafting powerful items. This route is very dangerous and requires careful preparation and protective gear.
-        
     - **Route to the Forgotten Bunker:** This route leads to a hidden pre-war bunker that has been forgotten by most wasteland inhabitants. The bunker contains valuable technology and information about the past, but it is also protected by challenging puzzles and security systems. This route requires problem-solving skills and combat prowess to overcome the obstacles and access the bunker's secrets.
-        
     - **Route to the Hidden Oasis:** This route leads to a lush and vibrant oasis hidden within the wasteland. The oasis offers rare resources and a respite from the harsh environment, but it is also guarded by powerful enemies. This route is the most challenging and requires a high level of skill and preparation to overcome the dangers and reap the rewards of the oasis.
-        
-- As players explore the wasteland and complete quests, they can find special items that reveal information about new routes:
+    
+
+As players explore the wasteland and complete quests, they can find special items that reveal information about new routes:
     
     - **Old books:** These books might contain forgotten knowledge about pre-war locations or hidden paths through the wasteland.
         
