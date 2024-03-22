@@ -6,7 +6,7 @@
 
 **Game Title:** Wasteland Chronicles  
 **Genre:** Text-based MMORPG with strategy elements  
-**Target Platforms:** Web browser, Telegram Mini Apps  
+**Target Platforms:** Telegram Mini Apps  
 **Target Audience:** Fans of Fallout and post-apocalyptic settings, MMORPG players who enjoy text-based experiences and collaborative gameplay.
 ### Project Goals
 
@@ -35,15 +35,12 @@ The initial scope focuses on developing the core gameplay loop, includ
 ### Game Overview
 
 Wasteland Chronicles is a text-based MMORPG set in a post-apocalyptic world inspired by the Fallout universe. Players cooperate to rebuild society and survive in a harsh and dangerous environment, facing the ever-present threat of a poisonous cloud that periodically sweeps across the land.
-
 #### Unique Selling Proposition (USP)
 
 Wasteland Chronicles offers a unique blend of text-based MMORPG experience with strategic settlement building and resource management. The game emphasizes player cooperation and community decision-making through its voting system, creating a shared sense of purpose and responsibility. The ever-present threat of the poisonous cloud adds tension and urgency to the gameplay, encouraging players to work together and prioritize the settlement's survival.
-
 #### Compelling Hook
 
 "In the shadow of the poisonous cloud, forge your destiny in the wasteland. Will you scavenge for survival, build a thriving community, or conquer your rivals? The choice is yours in Wasteland Chronicles, a text-based MMORPG where your actions shape the future of your settlement."
-
 ## Part 2: Game Mechanics - Character System
 
 ### Attributes
@@ -58,13 +55,11 @@ Players allocate 40 points among the 7 attributes during character cre
 - **Luck:** Influences critical hit chance, random encounters, and the outcome of certain events.
 
 Each attribute point increases the relevant stat by 1 and affects various gameplay aspects, such as combat damage, skill checks, carrying capacity, and interaction with NPCs.
-
 ### Skills
 #### Combat
 
  - **Ranged Weapons:** Governs the use of all ranged weapons, including pistols, rifles, SMGs, miniguns, rocket launchers, flamethrowers, laser weapons, and plasma weapons. Higher levels increase accuracy, damage, critical hit chance, and unlock special combat maneuvers and weapon-specific attacks, including energy-based abilities.
   - **Melee Weapons:** Governs the use of melee weapons and unarmed. Higher levels increase damage, critical hit chance, and unlock special attacks like disarming strikes or power attacks.
-
 #### Crafting
 
   - **Repair:** Allows for repairing weapons, armor, and tools. Higher skill levels allow for repairing more complex items.
@@ -79,7 +74,6 @@ Highlevel crafting skills allow for experimentation and improvisation, e
  - **Gambling:** Used for playing games of chance and winning bottle caps. Higher skill levels increase the chance of winning.
  - **Persuasion:** Influences NPC interactions and quest outcomes. Higher skill levels unlock additional quest options and influence NPC behavior.
   - **Leadership:** Provides bonuses to group activities and settlement management. Higher skill levels improve group morale, productivity, and settlement efficiency.
-
 ### Perks
 
 Perks are unlocked every 2 levels, starting at level 2, and some require specific skill levels or other prerequisites.
@@ -96,18 +90,15 @@ Perk trees can branch out based on character choices and specializatio
 ### Traits
  Players can choose up to 2 traits during character creation, providing significant advantages and disadvantages.
 Traits can have synergistic effects with specific perks or skills.
-
 ### Character Advancement
 
 - Characters gain experience points (XP) by completing quests, defeating enemies, crafting items, and participating in settlement activities.
 - Upon reaching certain XP thresholds, characters level up.
 - Each level grants the player attribute points and skill points for further character development and customization.
-
 ### Mutations
 
 - Exposure to radiation or other environmental hazards could cause mutations, which can have both positive and negative effects on the character.
 - Players could choose to embrace mutations or seek ways to cure them, depending on their desired playstyle and roleplaying preferences.
-
 ## Part 3: Game Mechanics - Wasteland Exploration
 
 ### Game world
@@ -118,7 +109,6 @@ Traits can have synergistic effects with specific perks or skills.
 - The game world is filled with remnants of the past, offering clues about the events that led to the apocalypse and the state of the world before the war.
 - The poisonous cloud, a byproduct of the war's environmental destruction, periodically sweeps across the land, posing a constant threat to survival.
 - Players uncover the history of the world, the cause of the apocalypse, and the secrets of the poisonous cloud through exploration, quests, and interactions with NPCs.
-
 ### Dynamic World Events
 
 Introduce large scale events that impact the entire game world, requiring players to collaborate and adapt
@@ -205,8 +195,6 @@ As players explore the wasteland and complete quests, they can find s
 
 - Critical hits deal increased damage and have a chance to inflict additional effects, such as bleeding or stunning.
 - Combat ends when all enemies are defeated or the player's party is incapacitated.
-
-
 ### Enemy Types
 - Wasteland Chronicles features a variety of enemy types with different strengths, weaknesses, and combat tactics:
     - **Raiders:** Human enemies equipped with various weapons and armor.
@@ -216,13 +204,11 @@ As players explore the wasteland and complete quests, they can find s
 
 - Each enemy type has unique attack patterns and behaviors, requiring players to adapt their tactics accordingly.
 - Some enemies may have special abilities or resistances, adding further complexity to combat encounters.
-
 ### Combat Difficulty
 
 - Combat difficulty scales with the player's level and group size, ensuring challenging encounters throughout the game.
 - Players can adjust the difficulty level to customize their experience.
 - Higher difficulty levels offer greater rewards but also pose a greater risk of failure and character death.
-
 ### Combat Strategies
 
 - Players can employ various strategies to gain an advantage in combat:
@@ -231,9 +217,7 @@ As players explore the wasteland and complete quests, they can find s
     - **Targeting:** Prioritize high-threat enemies or focus fire on specific targets.
     - **Skill Synergies:** Combine different skills and perks to create powerful combos and maximize damage output.
     - **Consumables:** Use consumables strategically to heal, buff allies, or cripple enemies.
-
-
-**Additional Combat Mechanics:**
+### Additional Combat Mechanics
 
 - **Stealth:** Players can utilize stealth to avoid combat encounters or gain a surprise attack advantage.
 - **Environmental Hazards:** Combat encounters can take place in environments with hazards that can be used to the player's advantage, such as explosive barrels or radioactive zones.
@@ -251,7 +235,6 @@ Different crafting stations are required for different types of craftin
 Additional stations can be added in future expansions, such as a Robotics Station for crafting and repairing robots.
 Upgraded stations unlock more complex crafting recipes and modifications. Upgrading stations requires resources and might depend on research progress in the Research Lab.
 Each station has specific resource requirements for building and upgrading.
-
 ### Blueprints
 
 Over 50 unique blueprints can be found or purchased, covering various item types like weapons, armor, tools, and consumables.
@@ -275,7 +258,6 @@ High crafting skills could allow for experimentation and improvisation, 
 
 - **Common:** These modifications are relatively easy to find or craft and provide basic bonuses.
 - **Rare:** These modifications are more difficult to find or require high-level crafting skills and rare materials. They provide significant bonuses and unique effects.
-
 ### Item Degradation
 
 - Items degrade over time with use, reducing their effectiveness.
@@ -292,14 +274,14 @@ High crafting skills could allow for experimentation and improvisation, 
 - **Power Generator** Generates power for the settlement. Upgrading increases power output and allows for powering more advanced structures.
 - **Clinic** Provides medical care for the settlement's population. Upgrading improves healing effectiveness and unlocks advanced medical procedures.
 - **Research Lab** Allows for researching new technologies and blueprints. Upgrading unlocks more advanced research projects and attracts skilled scientists.
-- **Workshop:* Provides a central location for crafting and modifying weapons, armor, and tools. Upgrading unlocks more advanced crafting options and improves crafting efficiency.
+- **Workshop:** Provides a central location for crafting and modifying weapons, armor, and tools. Upgrading unlocks more advanced crafting options and improves crafting efficiency.
 - **Trading Post** Facilitates trade with other settlements and traveling merchants. Upgrading attracts more traders and improves trade deals.
 - **Defense Structures** Walls, turrets, and other defensive structures protect the settlement from attacks. Upgrading increases their defensive capabilities and offensive power.
 
-Building costs and construction times scale with complexity and upgrade level.
-Buildings interact with each other to create a dynamic settlement system.
-Expand on building descriptions to highlight synergistic effects between specific structures.
-High-level buildings could offer unique benefits and interactions.
+- Building costs and construction times scale with complexity and upgrade level.
+- Buildings interact with each other to create a dynamic settlement system.
+- Expand on building descriptions to highlight synergistic effects between specific structures.
+- High-level buildings could offer unique benefits and interactions.
 ### Building Requirements
 
 Each building type has specific requirements for construction:
@@ -375,28 +357,21 @@ Players can acquire bottle caps through various means:
 
 - Quest rewards include experience, bottle caps, unique items, and reputation gains.
 
-- Quests are categorized into:
-    - **Main story quests:** These quests advance the main narrative and reveal the secrets of the game world.
-    - **Side quests:** These quests provide additional challenges, rewards, and opportunities to explore the world and interact with NPCs.
-    - **Faction quests:** These quests are specific to individual factions and can improve the player's reputation with that faction.
-    - **Repeatable quests:** These quests can be completed multiple times, often providing resources or experience points as rewards.
+#### Categories
+- **Main story quests:** These quests advance the main narrative and reveal the secrets of the game world.
+- **Side quests:** These quests provide additional challenges, rewards, and opportunities to explore the world and interact with NPCs.
+- **Faction quests:** These quests are specific to individual factions and can improve the player's reputation with that faction.
+- **Repeatable quests:** These quests can be completed multiple times, often providing resources or experience points as rewards.
 
 - Quests offer meaningful choices that can impact the game world and narrative, with some offering branching paths and different outcomes.
 
 - Some quests could have branching paths that lead to drastically different outcomes, such as siding with different factions or influencing the fate of entire settlements.
 
-- **Quest Variety:**
-    - (See detailed description above)
 
-- **Quest Difficulty:**
-    - **Recommended Level:** Each quest has a recommended level, indicating the minimum level players should be to tackle the quest comfortably.
-
-    - **Enemy Strength:** The strength and number of enemies players will face during the quest.
-
-    - **Quest Objectives:** The complexity and challenge of the quest objectives.
-
-- Quest difficulty can scale dynamically to some extent based on the player's level and group size.
-
+#### Difficulty
+- **Recommended Level:** Each quest has a recommended level, indicating the minimum level players should be to tackle the quest comfortably.
+- **Enemy Strength:** The strength and number of enemies players will face during the quest.
+- **Quest Objectives:** The complexity and challenge of the quest objectives.
 ### Events
 
 - Over 20 random events can occur, ranging from finding a hidden cache to defending the settlement from raiders.
@@ -513,12 +488,10 @@ Players can acquire bottle caps through various means:
 - Strategies for ensuring the game's scalability and performance with a large number of players and concurrent actions. This includes implementing efficient data structures, caching mechanisms, and load balancing techniques to distribute server load and prevent performance bottlenecks.
 - Aim for high performance benchmarks that ensure a smooth and responsive gameplay experience even with a large number of players and complex interactions.
 - **Performance Optimization:** Outline the strategies used to optimize game performance and ensure scalability with a large player base.
-
 ### Data Persistence
 
 - Game data is persisted using a combination of Redis for real-time data and a persistent database (e.g., MongoDB) for long-term storage. This ensures that player progress and game world data are saved and can be accessed even after players log out or servers restart.
 - **Data Backup and Recovery:** Explain the procedures for data backup and recovery in case of server failure or data loss.
-
 ### Security Measures
 
 - Data validation, encryption, and user authentication protocols are implemented to protect game data and prevent cheating or malicious activity.
@@ -594,17 +567,14 @@ Players can acquire bottle caps through various means:
 ### Publishing Plan
 
 - **Self-Publishing:** Self-publish the game on web browser and Telegram Mini Apps platforms. This allows for greater control over the publishing process, direct interaction with the player community, and flexibility in updating and expanding the game.
-
 - **Platform Partnerships:** Explore potential partnerships with other gaming platforms to expand the game's reach and audience.
 
-
-**Localization:**
+### Localization
 
 - Consider localizing the game into different languages to expand its reach and cater to players from different regions.
 - This may involve translating game text, interface elements, and marketing materials.
 
-**Community Management:**
-
+### Community Management
 - Establish clear community guidelines and rules to foster a positive and inclusive environment for all players.
 - Actively moderate forums and chat channels to address player concerns, resolve conflicts, and ensure a safe and enjoyable experience for everyone.
 - Regularly collect and respond to player feedback to improve the game and address community concerns.
