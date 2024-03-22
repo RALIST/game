@@ -79,13 +79,19 @@ Each attribute point increases the relevant stat by 1 and affects var
 Determined by Endurance. Represents the character's overall health and ability to withstand damage.
 #### Action Points (AP)
 Determined by Agility. Used to perform actions in combat, such as attacking, moving, or using items.
+
 #### Carrying Capacity 
 Determined by Strength. Limits the amount of weight the character can carry.
 #### Healing Rate
-Influences how quickly the character recovers health points (HP) over time.
-Affected by Endurance and the Medicine skill.
-Can be further increased by perks, consumables, and medical facilities within settlements.
+**Influences how quickly the character recovers health points (HP) over time.**
+> Affected by Endurance and the Medicine skill.
+>Can be further increased by perks, consumables, and medical facilities within settlements.
 The recovery rate being significantly higher when the character is resting in their house.
+
+- Base healing rate is **1 HP per minute**.
+- Endurance increases healing rate by **0.1 HP per minute per point**.
+- Medicine skill increases healing rate by **5% per skill level**.
+- Perks, consumables, and medical facilities can further increase healing rate.
 #### Critical Chance
 Represents the chance to land a critical hit in combat, dealing increased damage.
 Affected by Luck and specific combat skills (e.g., Sniper perk for ranged weapons).
@@ -278,37 +284,54 @@ As players explore the wasteland and complete quests, they can find s
 
 ### Turn-Based Combat
 
-- Wasteland Chronicles utilizes a turn-based combat system with Action Points (AP) determining the number of actions a character can take per turn.
-- AP is influenced by the character's Agility attribute and can be further modified by perks and equipment.
-- Each turn, a player has from 5 to 10 action points (AP) to use on movements, attacks, or item usage. The backend will calculate AP based on equipment weight and character stats. Multiplayer and enemy turns are queued in real-time but executed in a turn-based sequence.
-Players can choose from various combat actions
-**Attacks:**
-- Light Attack (melee or ranged): 3 AP
-- Heavy Attack (melee or ranged, with increased damage): 5 AP
-- Aimed Shot (ranged, with increased accuracy): 6 AP
- **Defensive Actions:**
-- Taking Cover (reduces incoming damage by a percentage): 2 AP
-- Dodge (avoiding the next incoming attack): 4 AP
-**Item Usage:**
-- Consuming a small item (e.g., throwing a grenade, using a stimpack): 3 AP
-- Equipping or changing weapons: 2 AP
-**Reload:** Reload ranged weapons, 2 AP
+> **Action Point System:**  
+>  
+> * Each character starts with **5 AP** per turn.  
+> * Agility attribute increases AP by **1 point per 2 points** of Agility.  
+> * **Attack:**  
+> * Melee weapons consume **2 AP** for a basic attack.  
+> * Ranged weapons consume **3 AP** for a basic attack.  
+> * Aimed shots consume **5 AP** and increase critical hit chance.  
+> * **Special Attacks:**  
+> * Power attacks (melee) consume **4 AP** and deal increased damage.  
+> * Disarming strikes (melee) consume **3 AP** and have a chance to disarm the target.  
+> * Energy-based abilities (ranged) consume varying AP based on their power and effects.  
+> * **Defense:** Consumes **2 AP** and increases damage resistance by **25%**.  
+> * **Movement:** Consumes **1 AP** per tile moved, with difficult terrain costing additional AP.  
+> * **Use Items:** Consumes **1 AP** to use most consumables.  
+> * **Reload:** Consumes **2 AP** for most weapons, with heavier weapons like miniguns costing **3 AP**.
 
 - Critical hits deal increased damage and have a chance to inflict additional effects, such as bleeding or stunning.
 - Combat ends when all enemies are defeated or the player's party is incapacitated.
-### Enemy Types
-Wasteland Chronicles features a variety of enemy types with different strengths, weaknesses, and combat tactics:
-- **Raiders:** Human enemies equipped with various weapons and armor.
-- **Mutants:** Creatures mutated by radiation, often possessing enhanced strength and resilience.
-- **Robots:** Pre-war robots with advanced weaponry and defenses.
-- **Animals:** Hostile animals found in the wasteland, such as mutated rats, radscorpions, or deathclaws.
+### Enemy Types
 
-- Each enemy type has unique attack patterns and behaviors, requiring players to adapt their tactics accordingly.
-- Some enemies may have special abilities or resistances, adding further complexity to combat encounters.
+1. **Scavengers:**
+    - **Description:** Opportunistic raiders with low to medium health. They prefer ambush tactics.
+    - **Attack Patterns:** Scavengers attack in groups, using hit-and-run tactics. They may throw grenades or use makeshift weapons.
+    - **Difficulty Scaling:** As players progress, scavengers might start using traps or coordinating attacks more effectively.
+2. **Mutated Creatures:**
+    - **Description:** Wildlife transformed by the wasteland's harsh conditions, ranging from mutated rats to giant behemoths.
+    - **Attack Patterns:** Smaller creatures swarm in numbers, while larger ones rely on powerful, devastating attacks. Some might have special abilities, like poison or a stunning roar.
+    - **Difficulty Scaling:** Higher-level areas feature creatures with enhanced abilities, such as environmental camouflage or regeneration.
+3. **Rogue Automatons:**
+    - **Description:** Leftover security robots or malfunctioning androids that perceive all humans as threats.
+    - **Attack Patterns:** Utilize ranged attacks, deploy mines, or engage in melee with electrified weapons. Some may have shields or healing capabilities.
+    - **Difficulty Scaling:** Advanced models might employ tactics like cloaking, aerial bombardment, or summoning smaller drones for assistance.
+4. **Cultists:**
+    - **Description:** Followers of the old world's forgotten gods, they possess rudimentary psychic powers.
+    - **Attack Patterns:** They use a mix of melee combat and low-level psychic attacks that can disorient or weaken players. Some may summon mutated creatures.
+    - **Difficulty Scaling:** Higher ranks can cast more powerful spells, create psychic barriers, or control players' actions briefly.
+5. **Wasteland Warlords:**
+    - **Description:** The most formidable human enemies, leading large groups of scavengers or mutated creatures.
+    - **Attack Patterns:** Well-armed and armored, they use a combination of direct attacks and commands to their followers. They may have unique weapons or abilities.
+    - **Difficulty Scaling:** As players encounter higher-level warlords, they'll find them equipped with experimental technology, heavily fortified positions, and strategic combat prowess.
 
-**Enemy AI:**
-- Enemy AI will have preset tactics but adapt to player strategies by switching attack patterns if their current one fails repeatedly. AI difficulty scales with player level and location difficulty.
-- Enemy AI should adapt by switching attack patterns if a player consistently counters their current strategy. This requires tracking player success against specific enemy types and adjusting AI behavior accordingly. For turn execution, use a queue system that processes actions in sequence but optimizes for minimal latency to maintain
+### Difficulty Scaling and Attack Patterns
+
+- **Adaptive AI:** Enemies should adapt to player strategies over time.
+- **Group Dynamics:** Higher difficulty levels introduce enemies that work better in groups, coordinating their attacks, and supporting each other with buffs or healing.
+- **Player Level Matching:** The game dynamically adjusts the enemy level within a certain range of the player's level to maintain challenge without becoming overwhelming.
+- **Special Events:** Certain high-difficulty areas or events can temporarily scale up the challenge, offering high rewards for success but requiring strategic planning and resource management.
 ### Combat Difficulty
 
 - Combat difficulty scales with the player's level and group size, ensuring challenging encounters throughout the game.
@@ -367,6 +390,57 @@ High crafting skills could allow for experimentation and improvisation, 
 - Items degrade over time with use, reducing their effectiveness.
 - Players can repair their equipment using the Repair skill and appropriate materials.
 - Different levels of degradation can be implemented, with heavily degraded items having significantly reduced stats and requiring more resources to repair.
+
+
+## Items System
+
+### Weapons
+
+1. **Melee Weapons:**
+    
+    - **Variety:** Include knives, swords, clubs, and more exotic options like electrified batons or chainsaws.
+    - **Stats:** Balance damage output with speed. Knives are quick but deal less damage, while heavier weapons like sledgehammers deal significant damage but are slower. Special melee weapons might have effects like stunning or bleeding.
+    - **Effectiveness:** Effective in close quarters and against unarmored or lightly armored enemies. Specialized melee weapons can disrupt enemy actions or bypass certain defenses.
+2. **Ranged Weapons:**
+    
+    - **Variety:** Pistols, rifles, shotguns, and energy weapons, each with sub-categories (e.g., sniper rifles, assault rifles).
+    - **Stats:** Consider range, damage, reload speed, and magazine size. Sniper rifles have high damage and range but slow reload and low magazine size, while shotguns excel at close range.
+    - **Effectiveness:** Ranged weapons allow engaging enemies from a distance, with specific types being more effective in certain scenarios (e.g., shotguns in close combat, sniper rifles for long-range engagements).
+3. **Explosives:**
+    
+    - **Variety:** Grenades, mines, and rocket launchers.
+    - **Stats:** High damage with an area of effect, but limited in quantity and requiring careful tactical use to avoid self-harm.
+    - **Effectiveness:** Ideal for dealing with groups of enemies or heavily fortified positions but require timing and positioning to use effectively.
+4. **Energy Weapons:**
+    
+    - **Variety:** Laser, plasma, and electromagnetic pulse (EMP) weapons.
+    - **Stats:** Energy weapons might have higher accuracy and unique effects, like bypassing conventional armor or disabling electronics, but are limited by energy cell availability.
+    - **Effectiveness:** Versatile against a range of enemies, especially effective against robots or enemies with energy shields.
+
+### Armor
+
+1. **Light Armor:**
+    
+    - **Variety:** Leather jackets, tactical vests, and reinforced clothing.
+    - **Stats:** Offers mobility and minor damage reduction. May include bonuses to stealth or speed.
+    - **Effectiveness:** Ideal for scouts or players favoring agility and speed over direct confrontation.
+2. **Medium Armor:**
+    
+    - **Variety:** Combat armor, riot gear, and chainmail.
+    - **Stats:** Balances protection and mobility. Provides moderate damage reduction without severely impacting movement.
+    - **Effectiveness:** Suitable for players engaging in regular combat, offering a balance between offense and defense.
+3. **Heavy Armor:**
+    
+    - **Variety:** Power armor, exoskeletons, and heavily plated suits.
+    - **Stats:** Offers high damage reduction but at the cost of mobility. May require power sources or special training to use effectively.
+    - **Effectiveness:** Best for front-line fighters and those who prefer to absorb and deal significant damage.
+
+### Balancing Considerations
+
+- **Scalability:** Weapons and armor should scale with player progression, ensuring that early-game choices remain viable through upgrades or modifications.
+- **Situational Effectiveness:** No single weapon or armor type should be universally superior. Instead, their effectiveness should depend on the combat scenario, enemy type, and player strategy.
+- **Trade-offs:** Implement trade-offs for using certain weapons or armor, such as heavy armor reducing agility or high-damage weapons having slower reload times.
+- **Customization:** Allow players to customize weapons and armor with mods to enhance their stats or add special effects, encouraging experimentation and personalization.
 
 ## Part 6:  Settlement Building System
 
