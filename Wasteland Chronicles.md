@@ -172,239 +172,153 @@ As players explore the wasteland and complete quests, they can find s
 
 #### Crafting Stations
 
-- Different crafting stations are required for different types of crafting:
-    - **Workbench:** Used for crafting and modifying weapons, armor, and tools.
+Different crafting stations are required for different types of crafting:
+- **Workbench:** Used for crafting and modifying weapons, armor, and tools.
+- **Chemistry Station:** Used for crafting drugs, medical supplies, and explosives.
+- **Research Lab:** Used for researching new technologies and blueprints.
 
-    - **Chemistry Station:** Used for crafting drugs, medical supplies, and explosives.
-        
-    - **Cooking Station:** Used for preparing food and drinks with various effects.
-        
-    - **Research Lab:** Used for researching new technologies and blueprints.
-        
-    - **Additional stations can be added in future expansions, such as a Robotics Station for crafting and repairing robots.**
-        
-- Upgraded stations unlock more complex crafting recipes and modifications. Upgrading stations requires resources and might depend on research progress in the Research Lab.
-    
-- Each station has specific resource requirements for building and upgrading.
-    
+Additional stations can be added in future expansions, such as a Robotics Station for crafting and repairing robots.
+Upgraded stations unlock more complex crafting recipes and modifications. Upgrading stations requires resources and might depend on research progress in the Research Lab.
+Each station has specific resource requirements for building and upgrading.
 
-**Blueprints:**
+#### Blueprints
 
-- Over 50 unique blueprints can be found or purchased, covering various item types like weapons, armor, tools, and consumables.
-    
+Over 50 unique blueprints can be found or purchased, covering various item types like weapons, armor, tools, and consumables.
 - Blueprints provide the instructions and specifications for crafting specific items.
-    
 - Blueprint complexity determines the required skill level and material cost for crafting.
-    
 - Include rare and powerful recipes that require ingredients found only in dangerous locations or acquired through complex quests.
-    
-- **Blueprint Acquisition:**
-    
-    - **Found:** Blueprints can be found while exploring the wasteland, often in hidden caches or abandoned buildings.
-        
-    - **Purchased:** Blueprints can be purchased from merchants or traders in settlements.
-        
-    - **Researched:** High-level Research Labs in settlements can allow players to research and unlock new blueprints.
-        
+##### Blueprint Acquisition
+- **Found:** Blueprints can be found while exploring the wasteland, often in hidden caches or abandoned buildings.
+- **Purchased:** Blueprints can be purchased from merchants or traders in settlements.
+- **Researched:** High-level Research Labs in settlements can allow players to research and unlock new blueprints.
 
-**Modifications:**
+#### Modifications
 
-- Each weapon and armor piece can have up to 3 modifications installed.
-    
-- Each modification slot can accommodate a specific type of modification (e.g., one slot for sights, one for barrels, and one for stocks on a weapon).
-    
-- Modifications provide various bonuses, such as increased damage, accuracy, or armor rating. They can also add unique effects or properties to items, such as increased critical hit chance, reduced recoil, or elemental damage.
-    
-- Installing modifications requires specific materials and skill levels.
-    
-- Implement a system of material quality tiers, impacting the effectiveness of modifications.
-    
-- Allow players to specialize in specific crafting disciplines, unlocking unique modifications and recipes.
-    
-- High-level crafting skills could allow for experimentation and improvisation, enabling players to create unique modifications or even entirely new items not found in blueprints.
-    
-- **Modification Rarity:**
-    
-    - **Common:** These modifications are relatively easy to find or craft and provide basic bonuses.
-        
-    - **Rare:** These modifications are more difficult to find or require high-level crafting skills and rare materials. They provide significant bonuses and unique effects.
-        
+Each weapon and armor piece can have up to 3 modifications installed.
+Each modification slot can accommodate a specific type of modification (e.g., one slot for sights, one for barrels, and one for stocks on a weapon).
+Modifications provide various bonuses, such as increased damage, accuracy, or armor rating. They can also add unique effects or properties to items, such as increased critical hit chance, reduced recoil, or elemental damage.
+Installing modifications requires specific materials and skill levels.
+Implement a system of material quality tiers, impacting the effectiveness of modifications.
+Allow players to specialize in specific crafting disciplines, unlocking unique modifications and recipes.
+High crafting skills could allow for experimentation and improvisation, enabling players to create unique modifications or even entirely new items not found in blueprints.
 
-**Item Degradation:**
+##### Modification Rarity
+
+- **Common:** These modifications are relatively easy to find or craft and provide basic bonuses.
+- **Rare:** These modifications are more difficult to find or require high-level crafting skills and rare materials. They provide significant bonuses and unique effects.
+
+##### Item Degradation
 
 - Items degrade over time with use, reducing their effectiveness.
-    
 - Players can repair their equipment using the Repair skill and appropriate materials.
-    
 - Different levels of degradation can be implemented, with heavily degraded items having significantly reduced stats and requiring more resources to repair.
 
 ### Part 5: Game Mechanics - Settlement Building
 
-**Building Types:**
+#### Building Types
 
-- 10 different building types are available, each with unique functions and upgrade paths:
-    
-    - **Living Quarters:** Provide housing for the settlement's population. Upgrading increases capacity and living conditions.
-        
-    - **Farm:** Produces food for the settlement. Upgrading increases food production and unlocks the ability to grow rarer crops.
-        
-    - **Water Purification Plant:** Provides clean water for the settlement. Upgrading increases water production and improves water quality.
-        
-    - **Power Generator:** Generates power for the settlement. Upgrading increases power output and allows for powering more advanced structures.
-        
-    - **Clinic:** Provides medical care for the settlement's population. Upgrading improves healing effectiveness and unlocks advanced medical procedures.
-        
-    - **Research Lab:** Allows for researching new technologies and blueprints. Upgrading unlocks more advanced research projects and attracts skilled scientists.
-        
-    - **Workshop:** Provides a central location for crafting and modifying weapons, armor, and tools. Upgrading unlocks more advanced crafting options and improves crafting efficiency.
-        
-    - **Trading Post:** Facilitates trade with other settlements and traveling merchants. Upgrading attracts more traders and improves trade deals.
-        
-    - **Defense Structures:** Walls, turrets, and other defensive structures protect the settlement from attacks. Upgrading increases their defensive capabilities and offensive power.
-        
-    - **Additional buildings can be added in future expansions, such as a school for educating children, a bar for entertainment, or a radio tower for communication.**
-        
-- Building costs and construction times scale with complexity and upgrade level.
-    
-- Buildings interact with each other to create a dynamic settlement system. For example, a farm placed near a water purification plant might produce more food.
-    
-- Expand on building descriptions to highlight synergistic effects between specific structures.
-    
-- High-level buildings could offer unique benefits and interactions.
-    
+10 different building types are available, each with unique functions and upgrade paths:
+- **Living Quarters:** Provide housing for the settlement's population. Upgrading increases capacity and living conditions.
+- **Water Purification Plant** Provides clean water for the settlement. Upgrading increases water production and improves water quality.
+- **Power Generator** Generates power for the settlement. Upgrading increases power output and allows for powering more advanced structures.
+- **Clinic** Provides medical care for the settlement's population. Upgrading improves healing effectiveness and unlocks advanced medical procedures.
+- **Research Lab** Allows for researching new technologies and blueprints. Upgrading unlocks more advanced research projects and attracts skilled scientists.
+- **Workshop:* Provides a central location for crafting and modifying weapons, armor, and tools. Upgrading unlocks more advanced crafting options and improves crafting efficiency.
+- **Trading Post** Facilitates trade with other settlements and traveling merchants. Upgrading attracts more traders and improves trade deals.
+- **Defense Structures** Walls, turrets, and other defensive structures protect the settlement from attacks. Upgrading increases their defensive capabilities and offensive power.
 
-**Building Requirements:**
+Building costs and construction times scale with complexity and upgrade level.
+Buildings interact with each other to create a dynamic settlement system.
+Expand on building descriptions to highlight synergistic effects between specific structures.
+High-level buildings could offer unique benefits and interactions.
+
+#### Building Requirements
 
 Each building type has specific requirements for construction:
 
 - **Resource costs:** The amount and type of resources needed to build the structure.
-    
 - **Construction time:** The time it takes to complete the construction of the building.
-    
 - **Prerequisite buildings or technologies:** Some buildings might require other structures or technologies to be built first.
-    
 
-**Voting System:**
+#### Voting System
 
 - Each player gets one vote per day for the building they want to prioritize.
-    
 - Players can campaign and debate to influence others' votes.
-    
 - The building with the most votes receives a 20% construction progress bonus.
-    
 
-**Building Upgrades:**
+#### Building Upgrades
 
 - Each building has 3 upgrade levels, unlocking new features and increasing efficiency.
-    
 - Upgrades require specific resources and may depend on research progress in the Research Lab.
-    
 
-**Settlement Management:**
+#### Settlement Management
 
 - Players manage resources, population, happiness, and defenses within the settlement.
-    
 - This involves making strategic decisions about resource allocation, assigning jobs to NPCs, and ensuring the overall well-being and safety of the settlement.
-    
 - Defensive structures provide both passive and active defense during attacks, with higher levels offering greater protection and offensive capabilities.
-    
 - Introduce random events specific to the settlement, requiring players to collaborate and make decisions to resolve them.
-    
 
-**Settlement Growth:**
+##### Settlement Growth
 
 Settlements can grow and expand by:
 
 - **Increasing population:** Building more Living Quarters and improving happiness levels attracts more people to the settlement.
-    
 - **Upgrading buildings:** Upgrading existing buildings improves their efficiency and unlocks new features.
-    
 - **Researching new technologies:** The Research Lab allows players to research new technologies that can improve various aspects of the settlement.
-    
 
-**Settlement Defense Strategies:**
+##### Settlement Defense Strategies
 
 Players can use various strategies to defend their settlement:
 
 - **Defensive structures:** Building walls, turrets, and other defensive structures to deter and repel attackers.
-    
 - **NPC guards:** Assigning NPCs to guard duty, providing additional firepower and manpower during attacks.
-    
 - **Player participation:** Players can actively participate in combat during attacks, using their skills and equipment to defend the settlement alongside NPCs.
 
 ### Part 6: Game Mechanics - Economy and Trade
 
-**Currency:**
+#### Currency
 
 - Bottle caps are the primary currency, with rarer items like pre-war money having higher value.
-    
 - Pre-war money can be used for special purchases or as a status symbol.
-    
 - Bartering skill and charisma can influence trade prices by up to 20%.
-    
-
-**Player Trading:**
+#### Player Trading
 
 - Players can set up personal shops in the settlement marketplace to sell items for bottle caps or barter with other players.
-    
 - Direct trading between players allows for negotiation and customized deals.
-    
 
-**Shop:**
+#### Shop
 
 - The settlement shop offers only basic items required for starting out and establishing basic farming operations.
-    
 - Advanced items can only be acquired through crafting or trading.
-    
 
 **Bottle Cap Acquisition:**
 
-- Players can acquire bottle caps through various means:
-    
-    - **Looting:** Bottle caps can be found while exploring the wasteland.
-        
-    - **Completing quests:** Quests often reward players with bottle caps.
-        
-    - **Trading:** Players can trade items with NPCs or other players for bottle caps.
-        
-    - **Selling items:** Players can sell items they don't need at shops or through their own personal shops.
-        
-
-**Trading Strategies:**
-
-- Players can employ different trading strategies:
-    
-    - **Buy low, sell high:** Purchase items at low prices and sell them at higher prices to make a profit.
-        
-    - **Invest in production:** Produce valuable resources or craft sought-after items within the settlement and sell them for profit.
-        
-    - **Establish trade routes:** Build relationships with other settlements and establish trade routes to exchange goods and resources.
-        
+Players can acquire bottle caps through various means:
+- **Looting:** Bottle caps can be found while exploring the wasteland.
+- **Completing quests:** Quests often reward players with bottle caps.
+- **Trading:** Players can trade items with NPCs or other players for bottle caps.
+- **Selling items:** Players can sell items they don't need at shops or through their own personal shops.
 
 **Economic Fluctuations:**
-
 - The game could feature a dynamic economy where prices and resource availability fluctuate based on player actions and market conditions.
 
 ### Part 7: Game Mechanics - Additional Mechanics
 
-**Quests:**
+#### Quests
 
 - Over 30 quests are available, ranging from simple fetch quests to complex story-driven missions.
-    
+
 - Quests provide a variety of challenges and objectives, keeping gameplay engaging and motivating players to explore the world.
-    
+
 - Quest rewards include experience, bottle caps, unique items, and reputation gains.
-    
+
 - Quests are categorized into:
     
     - **Main story quests:** These quests advance the main narrative and reveal the secrets of the game world.
-        
     - **Side quests:** These quests provide additional challenges, rewards, and opportunities to explore the world and interact with NPCs.
-        
     - **Faction quests:** These quests are specific to individual factions and can improve the player's reputation with that faction.
-        
     - **Repeatable quests:** These quests can be completed multiple times, often providing resources or experience points as rewards.
-        
+
 - Quests offer meaningful choices that can impact the game world and narrative, with some offering branching paths and different outcomes.
     
 - Some quests could have branching paths that lead to drastically different outcomes, such as siding with different factions or influencing the fate of entire settlements.
