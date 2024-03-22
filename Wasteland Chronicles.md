@@ -281,22 +281,27 @@ As players explore the wasteland and complete quests, they can find s
 - Wasteland Chronicles utilizes a turn-based combat system with Action Points (AP) determining the number of actions a character can take per turn.
 - AP is influenced by the character's Agility attribute and can be further modified by perks and equipment.
 - Each turn, a player has from 5 to 10 action points (AP) to use on movements, attacks, or item usage. The backend will calculate AP based on equipment weight and character stats. Multiplayer and enemy turns are queued in real-time but executed in a turn-based sequence.
-- Players can choose from various combat actions, such as:
-    - **Attack:** Basic attack with equipped weapon, consuming AP based on weapon type and attack type (e.g., aimed shot consuming more AP than a regular shot).
-    - **Special Attacks:** Specific attacks unlocked by skills or perks, such as power attacks, disarming strikes, or energy-based abilities.
-    - **Defense**  Enter a defensive stance, increasing damage resistance and reducing incoming damage.
-    - **Movement:** Move around the battlefield, consuming AP based on distance and terrain.
-    - **Use Items:** Use consumables like stimpaks or grenades during combat.
-    - **Reload:** Reload ranged weapons, consuming AP based on weapon type.
+Players can choose from various combat actions
+**Attacks:**
+- Light Attack (melee or ranged): 3 AP
+- Heavy Attack (melee or ranged, with increased damage): 5 AP
+- Aimed Shot (ranged, with increased accuracy): 6 AP
+ **Defensive Actions:**
+- Taking Cover (reduces incoming damage by a percentage): 2 AP
+- Dodge (avoiding the next incoming attack): 4 AP
+**Item Usage:**
+- Consuming a small item (e.g., throwing a grenade, using a stimpack): 3 AP
+- Equipping or changing weapons: 2 AP
+**Reload:** Reload ranged weapons, 2 AP
 
 - Critical hits deal increased damage and have a chance to inflict additional effects, such as bleeding or stunning.
 - Combat ends when all enemies are defeated or the player's party is incapacitated.
 ### Enemy Types
-- Wasteland Chronicles features a variety of enemy types with different strengths, weaknesses, and combat tactics:
-    - **Raiders:** Human enemies equipped with various weapons and armor.
-    - **Mutants:** Creatures mutated by radiation, often possessing enhanced strength and resilience.
-    - **Robots:** Pre-war robots with advanced weaponry and defenses.
-    - **Animals:** Hostile animals found in the wasteland, such as mutated rats, radscorpions, or deathclaws.
+Wasteland Chronicles features a variety of enemy types with different strengths, weaknesses, and combat tactics:
+- **Raiders:** Human enemies equipped with various weapons and armor.
+- **Mutants:** Creatures mutated by radiation, often possessing enhanced strength and resilience.
+- **Robots:** Pre-war robots with advanced weaponry and defenses.
+- **Animals:** Hostile animals found in the wasteland, such as mutated rats, radscorpions, or deathclaws.
 
 - Each enemy type has unique attack patterns and behaviors, requiring players to adapt their tactics accordingly.
 - Some enemies may have special abilities or resistances, adding further complexity to combat encounters.
