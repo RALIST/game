@@ -189,7 +189,82 @@ As players explore the wasteland and complete quests, they can find s
 
 - **Separate Solo and Group Routes:** Separate routes could be designed specifically for solo play and group play. This would allow for tailored challenges and rewards for each type of gameplay experience.
 
-### Part 4: Game Mechanics - Crafting System
+### Part 4: Combat System
+
+**Turn-Based Combat:**
+
+- Wasteland Chronicles utilizes a turn-based combat system with Action Points (AP) determining the number of actions a character can take per turn.
+    
+- AP is influenced by the character's Agility attribute and can be further modified by perks and equipment.
+    
+- Players can choose from various combat actions, such as:
+    
+    - **Attack:** Basic attack with equipped weapon, consuming AP based on weapon type and attack type (e.g., aimed shot consuming more AP than a regular shot).
+        
+    - **Special Attacks:** Specific attacks unlocked by skills or perks, such as power attacks, disarming strikes, or energy-based abilities.
+        
+    - **Defense:** Enter a defensive stance, increasing damage resistance and reducing incoming damage.
+        
+    - **Movement:** Move around the battlefield, consuming AP based on distance and terrain.
+        
+    - **Use Items:** Use consumables like stimpaks or grenades during combat.
+        
+    - **Reload:** Reload ranged weapons, consuming AP based on weapon type.
+        
+- Critical hits deal increased damage and have a chance to inflict additional effects, such as bleeding or stunning.
+    
+- Combat ends when all enemies are defeated or the player's party is incapacitated.
+    
+
+**Enemy Types:**
+
+- Wasteland Chronicles features a variety of enemy types with different strengths, weaknesses, and combat tactics:
+    
+    - **Raiders:** Human enemies equipped with various weapons and armor.
+        
+    - **Mutants:** Creatures mutated by radiation, often possessing enhanced strength and resilience.
+        
+    - **Robots:** Pre-war robots with advanced weaponry and defenses.
+        
+    - **Animals:** Hostile animals found in the wasteland, such as mutated rats, radscorpions, or deathclaws.
+        
+- Each enemy type has unique attack patterns and behaviors, requiring players to adapt their tactics accordingly.
+    
+- Some enemies may have special abilities or resistances, adding further complexity to combat encounters.
+    
+
+**Combat Difficulty:**
+
+- Combat difficulty scales with the player's level and group size, ensuring challenging encounters throughout the game.
+    
+- Players can adjust the difficulty level to customize their experience.
+    
+- Higher difficulty levels offer greater rewards but also pose a greater risk of failure and character death.
+    
+
+**Combat Strategies:**
+
+- Players can employ various strategies to gain an advantage in combat:
+    
+    - **Positioning:** Utilize cover and flanking maneuvers to gain tactical advantages.
+        
+    - **Targeting:** Prioritize high-threat enemies or focus fire on specific targets.
+        
+    - **Skill Synergies:** Combine different skills and perks to create powerful combos and maximize damage output.
+        
+    - **Consumables:** Use consumables strategically to heal, buff allies, or cripple enemies.
+        
+
+**Additional Combat Mechanics:**
+
+- **Stealth:** Players can utilize stealth to avoid combat encounters or gain a surprise attack advantage.
+    
+- **Environmental Hazards:** Combat encounters can take place in environments with hazards that can be used to the player's advantage, such as explosive barrels or radioactive zones.
+    
+- **Companion System:** Players may be able to recruit companions who can assist them in combat, providing additional firepower and support.
+
+
+### Part 5: Game Mechanics - Crafting System
 
 #### Crafting Stations
 
@@ -234,7 +309,7 @@ High crafting skills could allow for experimentation and improvisation, 
 - Players can repair their equipment using the Repair skill and appropriate materials.
 - Different levels of degradation can be implemented, with heavily degraded items having significantly reduced stats and requiring more resources to repair.
 
-### Part 5: Game Mechanics - Settlement Building
+### Part 6: Game Mechanics - Settlement Building
 
 #### Building Types
 
@@ -295,7 +370,7 @@ Players can use various strategies to defend their settlement:
 - **NPC guards:** Assigning NPCs to guard duty, providing additional firepower and manpower during attacks.
 - **Player participation:** Players can actively participate in combat during attacks, using their skills and equipment to defend the settlement alongside NPCs.
 
-### Part 6: Game Mechanics - Economy and Trade
+### Part 8: Game Mechanics - Economy and Trade
 
 #### Currency
 
@@ -323,7 +398,7 @@ Players can acquire bottle caps through various means:
 **Economic Fluctuations:**
 - The game could feature a dynamic economy where prices and resource availability fluctuate based on player actions and market conditions.
 
-### Part 7: Game Mechanics - Additional Mechanics
+### Part 9: Game Mechanics - Additional Mechanics
 
 #### Quests
 
@@ -418,40 +493,37 @@ Players can acquire bottle caps through various means:
     - High reputation with an NPC could lead to unique dialogue options, special quests, or discounts when trading.
         
 
-### Part 8: User Interface and Controls
+### Part 10: User Interface and Controls
 
-#### Interface Design
-
+#### Overview
+##### Interface Design
 - Text-based interface with menus, descriptions, and interactive commands.
 - The interface is designed to be clear, concise, and easy to navigate using text commands.
 - The UI could be designed to resemble a Pip-Boy from the Fallout universe, displaying information in a retro-futuristic style.
 
-#### Navigation and Menus
+##### Navigation and Menus
 - Players navigate through menus using simple text commands and keywords.
 - The command system should be intuitive and recognize synonyms and abbreviations to make navigation efficient and user-friendly.
 - Context-sensitive commands are available within each menu for specific interactions.
-
-#### Controls and Input
+##### Controls and Input
 - Players primarily use text commands and keywords to interact with the game world.
 - The game should recognize a variety of synonyms and abbreviations for commands.
 - Implement a context-sensitive command system where available commands change depending on the player's current situation and surroundings.
 
-#### Feedback and Information Display
+#### Interfaces
+
+##### Feedback and Information Interface
 
 - Detailed descriptions provide feedback on actions and immerse players in the world.
 - Descriptions should be vivid and engaging, painting a picture of the environment, characters, and events in the player's mind.
 - The UI displays information about character stats, inventory, crafting, settlement status, and other relevant game elements.
 - The information should be presented clearly and concisely.
-
-##### Error Handling and Feedback
+###### Error Handling and Feedback
 
 - The UI provides clear and informative feedback to players when actions fail or encounter issues.
 - This includes specific error messages, visual or audio cues, and suggestions for alternative actions.
 
-#### Social Interaction Features
 
-- The UI includes specific elements and functionalities for chat, group management, and trading.
-- These features should be intuitive and easy to use.
 - **Chat Features:**
     - **Channels:** Public channels for general chat, faction chat, and group chat.
     - **Private messages:** Players can send private messages to individual players.
@@ -467,7 +539,34 @@ Players can acquire bottle caps through various means:
     - **Engage in direct trades:** Trade items directly with other players, including barter options.
     - **View item descriptions:** See detailed information about items before buying or trading.
 
-### Part 9: Technical Specifications
+#### Additional UI Features
+
+##### World Map Interface
+
+- Displays the different routes and locations within the wasteland.
+- Shows the player's current location and progress on each route.
+- Allows players to select their destination and track their travel progress.
+- Provides information about each location, such as resource availability, potential dangers, and available quests.
+
+##### Crafting Interface
+
+- Displays available blueprints and modifications for each crafting station.
+- Shows required materials and skill levels for crafting each item.
+- Allows players to select modifications and customize their crafted items.
+- Provides information about the effects and stats of each modification.
+
+##### Settlement Management Interface
+- Provides an overview of the settlement's status, including resource levels, population, happiness, and defenses.
+- Allows players to manage resources, assign jobs to NPCs, and prioritize building construction and upgrades.
+- Displays information about each building's function, upgrade levels, and resource production.
+- Shows the current voting status for prioritized building construction.
+
+##### Combat Interface
+- Displays the battlefield, including enemy positions and environmental hazards.
+- Shows character stats, AP, and available combat actions.
+- Allows players to select targets, choose combat actions, and use items during combat.
+- Provides feedback on combat actions, including damage dealt, critical hits, and status effects
+### Part 11: Technical Specifications
 
 **Game Engine:** Node.js / TypeScript for server-side logic and Redis for data storage. This combination provides a robust and efficient platform for handling the game's backend processes and data management.
 
@@ -532,339 +631,135 @@ Players can acquire bottle caps through various means:
 - Utilize load balancing techniques to distribute player traffic across multiple servers, preventing bottlenecks and ensuring server stability.
 - Implement redundancy measures to ensure high availability and minimize downtime in case of server failures.
 
-**API Design:**
-
-- **API Definition:**
-    
-    - The APIs used for communication between the backend and frontend are designed using RESTful principles, ensuring consistency and ease of integration.
-        
-    - The APIs specify the data structures and protocols used for exchanging information, such as character data, world state, combat actions, and crafting requests.
-        
-    - Comprehensive API documentation is provided for developers to understand how to interact with the game's backend systems.
-        
-- **Open and Accessible APIs:**
-    
-    - Design the APIs to be open and accessible, allowing for potential community-created mods or integrations with external tools.
-        
-    - Provide clear documentation and examples for community developers to utilize the APIs and create their own content or tools for the game.
-        
-
 **Scalability and Performance Considerations:**
 
 - **Strategies for Scalability and Performance:**
-    
-    - Implement efficient data structures and algorithms to minimize server load and optimize performance.
-        
+- Implement efficient data structures and algorithms to minimize server load and optimize performance.
     - Utilize caching mechanisms to reduce database queries and improve response times.
-        
     - Implement load balancing techniques to distribute server load across multiple instances.
-        
-    - Continuously monitor and optimize server performance to identify and address potential bottlenecks.
-        
+- Continuously monitor and optimize server performance to identify and address potential bottlenecks.
+
 - **Performance Benchmarks:**
-    
-    - Establish performance benchmarks to measure and track the game's performance under different load conditions.
-        
-    - Conduct regular stress tests to simulate high player concurrency and ensure the game can handle peak loads.
-        
+- Establish performance benchmarks to measure and track the game's performance under different load conditions.
+
+- Conduct regular stress tests to simulate high player concurrency and ensure the game can handle peak loads.
+
 - **Performance Optimization:**
-    
-    - Continuously profile and optimize the game's code to identify and address performance issues.
-        
-    - Utilize performance optimization techniques, such as code optimization, data compression, and efficient resource management.
-        
+- Continuously profile and optimize the game's code to identify and address performance issues.
+
+- Utilize performance optimization techniques, such as code optimization, data compression, and efficient resource management.
+
 
 **Data Persistence:**
 
 - **Data Storage:**
-    
-    - Utilize Redis for storing real-time data, such as player positions, ongoing combat encounters, and dynamic world events.
-        
-    - Use a persistent database (e.g., MongoDB) for long-term storage of player progress, world state, and other persistent data.
-        
+- Utilize Redis for storing real-time data, such as player positions, ongoing combat encounters, and dynamic world events.
+
+- Use a persistent database (e.g., MongoDB) for long-term storage of player progress, world state, and other persistent data.
+
 - **Data Backup and Recovery:**
-    
-    - Implement regular data backups to prevent data loss in case of server failures.
-        
-    - Establish a data recovery plan to restore game data from backups in case of emergencies.
-        
+
+- Implement regular data backups to prevent data loss in case of server failures.
+
+- Establish a data recovery plan to restore game data from backups in case of emergencies.
+
 
 **Security Measures:**
+- **Data Validation and Encryption:**- Implement data validation techniques to prevent invalid or malicious data from being processed by the server.
+- Use encryption protocols to protect sensitive player data, such as passwords and payment information.
 
-- **Data Validation and Encryption:**
-    
-    - Implement data validation techniques to prevent invalid or malicious data from being processed by the server.
-        
-    - Use encryption protocols to protect sensitive player data, such as passwords and payment information.
-        
-- **User Authentication:**
-    
-    - Implement secure user authentication mechanisms, such as password hashing and two-factor authentication, to prevent unauthorized access to player accounts.
-        
 - **Anti-Cheat Measures:**
-    
     - Implement server-side checks and validation to detect and prevent cheating or exploits.
-        
     - Utilize anti-cheat software or tools to monitor player activity and identify suspicious behavior.
-        
-    - Establish clear rules and consequences for cheating, and actively enforce them to maintain a fair and enjoyable gameplay environment for all players.
-        
+- Establish clear rules and consequences for cheating, and actively enforce them to maintain a fair and enjoyable gameplay environment for all players.
 
-### Part 11: Development Roadmap
+
+### Part 12: Development Roadmap
 
 **Phase 1: Core Gameplay Development (Estimated Time: 3-4 months)**
 
 - **Character Creation and Development:** Implement the S.P.E.C.I.A.L. system, skills, perks, and traits.
-    
+
 - **Exploration:** Develop the world map and initial set of locations for each route, including resource gathering mechanics.
-    
+
 - **Crafting:** Implement crafting stations, blueprints, and modification systems for weapons, armor, and other items.
-    
+
 - **Settlement Building:** Design and implement basic settlement building mechanics, including building types, resource costs, construction times, and the voting system.
-    
+
 - **Combat:** Develop the turn-based combat system, including enemy types, combat actions, and how character stats and skills influence combat outcomes.
-    
+
 - **Social Interaction:** Implement basic chat and group formation functionalities.
-    
+
 - **Internal Testing and Feedback:** Conduct thorough internal testing of the core gameplay loop and gather feedback from the development team and early adopters.
-    
 
 **Phase 2: Content Expansion and Refinement (Estimated Time: 4-6 months)**
 
 - **Expand the World:** Add more locations to each route, creating diverse environments and challenges.
-    
+
 - **Quests and Events:** Develop a variety of quests, including main story quests, side quests, faction quests, and repeatable quests. Implement random events that occur during exploration and within settlements.
-    
+
 - **Lore and Story:** Integrate lore elements into the game world through environmental storytelling, quest dialogues, and NPC interactions.
-    
+
 - **Dynamic World Events:** Introduce large-scale events that impact the entire game world, requiring players to collaborate and adapt.
-    
+
 - **Player-Driven Economy:** Develop a dynamic economy where prices and resource availability fluctuate based on player actions and market conditions.
-    
-- **Refinement and Balancing:** Refine existing mechanics based on player feedback gathered from playtesting the prototype. This includes balancing combat, crafting, settlement building, and other gameplay elements.
-    
+
+- **Refinement and Balancing:** Refine existing mechanics based on player feedback gathered from playtesting the prototype. This includes balancing combat, crafting, settlement building, and other gameplay elements
+
 - **Seasonal Content and Challenges:** Implement a system for introducing limited-time events, special rewards, and unique challenges that change with the seasons.
-    
+
 
 **Phase 3: Advanced Features and Polishing (Estimated Time: 3-4 months)**
 
 - **Guilds and Factions:** Implement guild and faction systems, allowing players to form groups with shared goals and compete for influence in the wasteland.
-    
 - **PvP and Cooperative Gameplay:** Introduce optional PvP elements and expanded cooperative gameplay features, such as raids and group challenges.
-    
 - **Deeper Settlement Management:** Expand settlement management mechanics to include resource production, population growth, and more complex defense systems.
-    
 - **Polishing and Bug Fixing:** Address any remaining bugs and fine-tune game mechanics to ensure a smooth and enjoyable gameplay experience.
-    
 - **Marketing and Launch:** Prepare marketing materials, such as trailers, screenshots, and website content. Launch the game on the chosen platforms and implement monetization strategies.
-
 
 **Note:** These are estimated timeframes and may be subject to change based on development progress and unforeseen challenges.
 
-### Part 12: Marketing and Publishing
+### Part 13: Marketing and Publishing
 
 **Target Market:**
 
 - **Primary Target:** Fans of Fallout, post-apocalyptic settings, and text-based MMORPGs.
-    
 - **Secondary Target:** MMORPG players who enjoy collaborative gameplay, strategy elements, and deep character customization.
-    
 
 **Marketing Strategy:**
 
 - **Community Building:**
-    
-    - Establish a strong online presence through social media platforms, forums, and a dedicated website.
-        
+- Establish a strong online presence through social media platforms, forums, and a dedicated website.
     - Create engaging content, such as developer blogs, lore snippets, and behind-the-scenes glimpses into the development process.
-        
     - Actively interact with the community, respond to feedback, and foster a sense of belonging and excitement.
-        
 - **Influencer Marketing:**
-    
     - Partner with influencers and content creators who cater to the target audience.
-        
     - Provide early access to the game and collaborate on promotional content, such as gameplay videos and reviews.
-        
 - **Targeted Advertising:**
-    
-    - Utilize targeted advertising on social media platforms and gaming websites to reach potential players who align with the game's target demographic.
-        
+- Utilize targeted advertising on social media platforms and gaming websites to reach potential players who align with the game's target demographic.
 - **Content Marketing:**
-    
     - Create high-quality content, such as blog posts, articles, and infographics, that provide value to the target audience and promote the game's unique features and setting.
-        
 - **Public Relations:**
-    
-    - Reach out to gaming publications and journalists to secure coverage and reviews of the game.
-        
-    - Participate in gaming conventions and events to showcase the game and generate interest.
-        
+- Reach out to gaming publications and journalists to secure coverage and reviews of the game.
+- Participate in gaming conventions and events to showcase the game and generate interest.
 
 **Publishing Plan:**
 
 - **Self-Publishing:** Self-publish the game on web browser and Telegram Mini Apps platforms. This allows for greater control over the publishing process, direct interaction with the player community, and flexibility in updating and expanding the game.
-    
+
 - **Platform Partnerships:** Explore potential partnerships with other gaming platforms to expand the game's reach and audience.
-    
 
-**Monetization Model:**
-
-- **Optional Subscription Model:** Offer an optional subscription that provides additional benefits, such as exclusive cosmetic items, increased resource gathering rates, and access to special events.
-    
-- **In-Game Purchases:** Offer cosmetic items and convenience features for purchase, ensuring they do not affect gameplay balance and maintain a fair and enjoyable experience for all players.
-    
-- **Focus on Value and Fairness:** Ensure that any monetization strategies provide value to players and do not create a pay-to-win environment.
-    
 
 **Localization:**
 
 - Consider localizing the game into different languages to expand its reach and cater to players from different regions.
-    
 - This may involve translating game text, interface elements, and marketing materials.
-    
 
 **Community Management:**
 
 - Establish clear community guidelines and rules to foster a positive and inclusive environment for all players.
-    
 - Actively moderate forums and chat channels to address player concerns, resolve conflicts, and ensure a safe and enjoyable experience for everyone.
-    
 - Regularly collect and respond to player feedback to improve the game and address community concerns.
-    
-
-### Part 13: Combat System
-
-**Turn-Based Combat:**
-
-- Wasteland Chronicles utilizes a turn-based combat system with Action Points (AP) determining the number of actions a character can take per turn.
-    
-- AP is influenced by the character's Agility attribute and can be further modified by perks and equipment.
-    
-- Players can choose from various combat actions, such as:
-    
-    - **Attack:** Basic attack with equipped weapon, consuming AP based on weapon type and attack type (e.g., aimed shot consuming more AP than a regular shot).
-        
-    - **Special Attacks:** Specific attacks unlocked by skills or perks, such as power attacks, disarming strikes, or energy-based abilities.
-        
-    - **Defense:** Enter a defensive stance, increasing damage resistance and reducing incoming damage.
-        
-    - **Movement:** Move around the battlefield, consuming AP based on distance and terrain.
-        
-    - **Use Items:** Use consumables like stimpaks or grenades during combat.
-        
-    - **Reload:** Reload ranged weapons, consuming AP based on weapon type.
-        
-- Critical hits deal increased damage and have a chance to inflict additional effects, such as bleeding or stunning.
-    
-- Combat ends when all enemies are defeated or the player's party is incapacitated.
-    
-
-**Enemy Types:**
-
-- Wasteland Chronicles features a variety of enemy types with different strengths, weaknesses, and combat tactics:
-    
-    - **Raiders:** Human enemies equipped with various weapons and armor.
-        
-    - **Mutants:** Creatures mutated by radiation, often possessing enhanced strength and resilience.
-        
-    - **Robots:** Pre-war robots with advanced weaponry and defenses.
-        
-    - **Animals:** Hostile animals found in the wasteland, such as mutated rats, radscorpions, or deathclaws.
-        
-- Each enemy type has unique attack patterns and behaviors, requiring players to adapt their tactics accordingly.
-    
-- Some enemies may have special abilities or resistances, adding further complexity to combat encounters.
-    
-
-**Combat Difficulty:**
-
-- Combat difficulty scales with the player's level and group size, ensuring challenging encounters throughout the game.
-    
-- Players can adjust the difficulty level to customize their experience.
-    
-- Higher difficulty levels offer greater rewards but also pose a greater risk of failure and character death.
-    
-
-**Combat Strategies:**
-
-- Players can employ various strategies to gain an advantage in combat:
-    
-    - **Positioning:** Utilize cover and flanking maneuvers to gain tactical advantages.
-        
-    - **Targeting:** Prioritize high-threat enemies or focus fire on specific targets.
-        
-    - **Skill Synergies:** Combine different skills and perks to create powerful combos and maximize damage output.
-        
-    - **Consumables:** Use consumables strategically to heal, buff allies, or cripple enemies.
-        
-
-**Additional Combat Mechanics:**
-
-- **Stealth:** Players can utilize stealth to avoid combat encounters or gain a surprise attack advantage.
-    
-- **Environmental Hazards:** Combat encounters can take place in environments with hazards that can be used to the player's advantage, such as explosive barrels or radioactive zones.
-    
-- **Companion System:** Players may be able to recruit companions who can assist them in combat, providing additional firepower and support.
-
-
-### Part 14: User Interface and Controls
-
-**Additional UI Features:**
-
-- **World Map Interface:**
-    
-    - Displays the different routes and locations within the wasteland.
-        
-    - Shows the player's current location and progress on each route.
-        
-    - Allows players to select their destination and track their travel progress.
-        
-    - Provides information about each location, such as resource availability, potential dangers, and available quests.
-        
-- **Crafting Interface:**
-    
-    - Displays available blueprints and modifications for each crafting station.
-        
-    - Shows required materials and skill levels for crafting each item.
-        
-    - Allows players to select modifications and customize their crafted items.
-        
-    - Provides information about the effects and stats of each modification.
-        
-- **Settlement Management Interface:**
-    
-    - Provides an overview of the settlement's status, including resource levels, population, happiness, and defenses.
-        
-    - Allows players to manage resources, assign jobs to NPCs, and prioritize building construction and upgrades.
-        
-    - Displays information about each building's function, upgrade levels, and resource production.
-        
-    - Shows the current voting status for prioritized building construction.
-        
-- **Combat Interface:**
-    
-    - Displays the battlefield, including enemy positions and environmental hazards.
-        
-    - Shows character stats, AP, and available combat actions.
-        
-    - Allows players to select targets, choose combat actions, and use items during combat.
-        
-    - Provides feedback on combat actions, including damage dealt, critical hits, and status effects.
-        
-
-**Accessibility Features:**
-
-- Implement accessibility features such as:
-    
-    - **Text-to-speech:** This feature reads aloud the game text.
-        
-    - **Colorblind mode:** This mode adjusts the game's color palette to make it more accessible for players with color blindness.
-        
-    - **Alternative input methods:** The game could support alternative input methods, such as voice commands or eye tracking.
-        
-    - **Customizable UI elements:** Allow players to adjust the size and color of text, choose different color schemes, and customize the layout of menus and interface elements.
-        
 
 ### Part 15: Conclusion
 
