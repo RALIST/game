@@ -76,32 +76,45 @@ Wasteland Chronicles offers a unique blend of text-based MMORPG experie
 Each attribute point increases the relevant stat by 1 and affects various gameplay aspects, such as combat damage, skill checks, carrying capacity, and interaction with NPCs.
 
 ### Stats:
-- **Maximum Health Points (HP):** Determined by Endurance. Represents the character's overall health and ability to withstand damage.
-- **Action Points (AP):** Determined by Agility. Used to perform actions in combat, such as attacking, moving, or using items.
-- **Carrying Capacity:** Determined by Strength. Limits the amount of weight the character can carry.
-- **Healing Rate**
-  Influences how quickly the character recovers health points (HP) over time.
-  Affected by Endurance and the Medicine skill. Can be further increased by perks, consumables, and medical facilities within settlements.
-- **Critical Chance**
-  Represents the chance to land a critical hit in combat, dealing increased damage.
-  Affected by Luck and specific combat skills (e.g., Sniper perk for ranged weapons).
-  Can be further increased by perks, equipment modifications, and consumables.
-- **Radiation Resistance**
-  Determines the character's resistance to radiation exposure.
-  Affected by Endurance and can be further increased by perks
-- **Reputation:**
-  Represents the character's standing with settlement
-  Can be decreased by actions against settlement (stealing and so on).
-  Can be descreased by other players.
-  Higher reputation unlocks unique rewards, special services and options in settlement. Also player's voting power huge depends  on reputation
+#### Maximum Health Points (HP)
+Determined by Endurance. Represents the character's overall health and ability to withstand damage.
+#### Action Points (AP)
+Determined by Agility. Used to perform actions in combat, such as attacking, moving, or using items.
+#### Carrying Capacity 
+Determined by Strength. Limits the amount of weight the character can carry.
+#### Healing Rate
+Influences how quickly the character recovers health points (HP) over time.
+Affected by Endurance and the Medicine skill.
+Can be further increased by perks, consumables, and medical facilities within settlements.
+#### Critical Chance
+Represents the chance to land a critical hit in combat, dealing increased damage.
+Affected by Luck and specific combat skills (e.g., Sniper perk for ranged weapons).
+Can be further increased by perks, equipment modifications, and consumables.
+#### Radiation Resistance
+Determines the character's resistance to radiation exposure.
+Affected by Endurance and can be further increased by perks
+#### Reputation
+Represents the character's standing with settlement
+Can be decreased by actions against settlement (stealing and so on).
+Can be descreased by other players.
+Higher reputation unlocks unique rewards, special services and options in settlement. Also player's voting power huge depends  on reputation
+#### Karma
+Represents the character's overall moral compass
+Can be increased by helping others, showing mercy, and making selfless decisions.
+Can be decreased by harming innocents, stealing, and making cruel or selfish choices.
+Karma can influence NPC interactions, quest outcomes, trigger specific encounters.
+#### Fatigue
+Represents the character's level of exhaustion and affects their overall performance.
+Increases with various activities, including exploring routes, crafting. Higher fatigue levels can lead to:
+   - Reduced combat effectiveness (e.g., lower accuracy, damage output, and AP regeneration).
+  - Decreased crafting efficiency (e.g., longer crafting times, increased resource costs).
+  - Slower movement speed during exploration.
+  Fatigue recovers over time, with the recovery rate being significantly higher when the character is resting in their house.
+  Consumables and specific perks can also help reduce fatigue or increase its recovery rate.
+#### Level
+#### Experience (XP)
 
-- **Karma:**
-  Represents the character's overall moral compass and reflects their choices and actions throughout the game.
-  Can be increased by helping others, showing mercy, and making selfless decisions.
-  Can be decreased by harming innocents, stealing, and making cruel or selfish choices.
-  Karma can influence NPC interactions, quest outcomes, and even trigger specific encounters.
-- **Level**
-- **Experience (XP)**
+
 ### Skills
 #### Combat
 
