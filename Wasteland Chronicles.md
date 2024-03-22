@@ -171,12 +171,12 @@ Math.floor(1000 * mod * (level - 1))
 
 
 ### Skills
-#### ==Combat==
+#### Combat
 ##### Ranged Weapons
 Governs the use of all ranged weapons, including pistols, rifles, SMGs, miniguns, rocket launchers, flamethrowers, laser weapons, and plasma weapons. Higher levels increase accuracy, damage, critical hit chance, and unlock special combat maneuvers and weapon-specific attacks, including energy-based abilities.
 ##### Melee Weapons
 Governs the use of melee weapons and unarmed. Higher levels increase damage, critical hit chance, and unlock special attacks like disarming strikes or power attacks.
-#### ==Crafting==
+#### Crafting
 ##### Repair
 Allows for repairing weapons, armor, and tools. Higher skill levels allow for repairing more complex items.
 ##### Science
