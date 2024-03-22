@@ -1,24 +1,23 @@
-## Wasteland Chronicles Game Design Document (GDD) - Part 1
+# Game Design Document (GDD)
 
-**Note:**
-This is the first part of the full GDD formatted in markdown. Due to its length, the document will be split into multiple responses.
+## Part 1: Introduction and Overview
 
-### Part 1: Introduction and Overview
+### Overview
 
 **Game Title:** Wasteland Chronicles  
 **Genre:** Text-based MMORPG with strategy elements  
 **Target Platforms:** Web browser, Telegram Mini Apps  
 **Target Audience:** Fans of Fallout and post-apocalyptic settings, MMORPG players who enjoy text-based experiences and collaborative gameplay.
+### Project Goals
 
-**Project Goals:**
 - Create an engaging and immersive text-based MMORPG that captures the essence of the Fallout universe.
 - Foster a strong sense of community through cooperative gameplay and shared goals.
 - Offer a unique blend of strategy, character development, and exploration in a text-based format.
 - Provide a platform for roleplaying and player-driven storytelling.
 
-**Project Scope:**
-The initial scope focuses on developing the core gameplay loop, including:
+### Project Scope
 
+The initial scope focuses on developing the core gameplay loop, including:
 - Character creation and development using the S.P.E.C.I.A.L. system, skills, perks, and traits.
 - Exploration and resource gathering in the diverse regions of the wasteland.
 - Crafting of weapons, armor, tools, and consumables using blueprints and modifications.
@@ -33,21 +32,21 @@ The initial scope focuses on developing the core gameplay loop, includ
 - Deeper settlement management with resource production, population growth, and defense mechanics.
 - Expansion of the world and lore.
 
-**Game Overview:**
+### Game Overview
 
 Wasteland Chronicles is a text-based MMORPG set in a post-apocalyptic world inspired by the Fallout universe. Players cooperate to rebuild society and survive in a harsh and dangerous environment, facing the ever-present threat of a poisonous cloud that periodically sweeps across the land.
 
-**Unique Selling Proposition (USP):**
+#### Unique Selling Proposition (USP)
 
 Wasteland Chronicles offers a unique blend of text-based MMORPG experience with strategic settlement building and resource management. The game emphasizes player cooperation and community decision-making through its voting system, creating a shared sense of purpose and responsibility. The ever-present threat of the poisonous cloud adds tension and urgency to the gameplay, encouraging players to work together and prioritize the settlement's survival.
 
-**Compelling Hook:**
+#### Compelling Hook
 
 "In the shadow of the poisonous cloud, forge your destiny in the wasteland. Will you scavenge for survival, build a thriving community, or conquer your rivals? The choice is yours in Wasteland Chronicles, a text-based MMORPG where your actions shape the future of your settlement."
 
-### Part 2: Game Mechanics - Character System
+## Part 2: Game Mechanics - Character System
 
-#### S.P.E.C.I.A.L. System
+### Attributes
 
 Players allocate 40 points among the 7 attributes during character creation:
 - **Strength:** Affects physical damage, carrying capacity, and melee weapon effectiveness.
@@ -60,28 +59,28 @@ Players allocate 40 points among the 7 attributes during character cre
 
 Each attribute point increases the relevant stat by 1 and affects various gameplay aspects, such as combat damage, skill checks, carrying capacity, and interaction with NPCs.
 
-#### Skills
+### Skills
+#### Combat
 
-**Combat:**
  - **Ranged Weapons:** Governs the use of all ranged weapons, including pistols, rifles, SMGs, miniguns, rocket launchers, flamethrowers, laser weapons, and plasma weapons. Higher levels increase accuracy, damage, critical hit chance, and unlock special combat maneuvers and weapon-specific attacks, including energy-based abilities.
   - **Melee Weapons:** Governs the use of melee weapons and unarmed. Higher levels increase damage, critical hit chance, and unlock special attacks like disarming strikes or power attacks.
 
-**Crafting:**
+#### Crafting
+
   - **Repair:** Allows for repairing weapons, armor, and tools. Higher skill levels allow for repairing more complex items.
   - **Science:** Used for crafting advanced items and researching new technologies. Higher skill levels unlock more complex recipes and research projects.
   - **Medicine:** Allows for healing injuries and crafting medical supplies. Higher skill levels improve healing effectiveness and unlock advanced medical procedures.
   - **Engineering:** Used for building and upgrading structures in the settlement. Higher skill levels unlock more advanced structures and upgrades.
-
 Highlevel crafting skills allow for experimentation and improvisation, enabling players to create unique modifications or even entirely new items
+#### Social
 
-**Social:**
   - **Speech:** Influences NPC interactions and persuasion attempts. Higher skill levels unlock unique dialogue options and increase persuasion success.
   - **Barter:** Affects trade prices and negotiation success. Higher skill levels lead to better deals and more profitable trades.
  - **Gambling:** Used for playing games of chance and winning bottle caps. Higher skill levels increase the chance of winning.
  - **Persuasion:** Influences NPC interactions and quest outcomes. Higher skill levels unlock additional quest options and influence NPC behavior.
   - **Leadership:** Provides bonuses to group activities and settlement management. Higher skill levels improve group morale, productivity, and settlement efficiency.
 
-#### Perks
+### Perks
 
 Perks are unlocked every 2 levels, starting at level 2, and some require specific skill levels or other prerequisites.
 
@@ -94,22 +93,22 @@ Perk trees can branch out based on character choices and specializatio
 
 **Additional Perks:** Some perks could require completing challenging or hidden achievements, encouraging exploration and experimentation.
 
-#### Traits
+### Traits
  Players can choose up to 2 traits during character creation, providing significant advantages and disadvantages.
 Traits can have synergistic effects with specific perks or skills.
 
-**Character Advancement:**
+### Character Advancement
 
 - Characters gain experience points (XP) by completing quests, defeating enemies, crafting items, and participating in settlement activities.
 - Upon reaching certain XP thresholds, characters level up.
 - Each level grants the player attribute points and skill points for further character development and customization.
 
-**Mutations:**
+### Mutations:
 
 - Exposure to radiation or other environmental hazards could cause mutations, which can have both positive and negative effects on the character.
 - Players could choose to embrace mutations or seek ways to cure them, depending on their desired playstyle and roleplaying preferences.
 
-### Part 3: Game Mechanics - Wasteland Exploration
+## Part 3: Game Mechanics - Wasteland Exploration
 
 #### Game world
 
@@ -189,7 +188,7 @@ As players explore the wasteland and complete quests, they can find s
 
 - **Separate Solo and Group Routes:** Separate routes could be designed specifically for solo play and group play. This would allow for tailored challenges and rewards for each type of gameplay experience.
 
-### Part 4: Combat System
+## Part 4: Combat System
 
 **Turn-Based Combat:**
 
@@ -264,7 +263,7 @@ As players explore the wasteland and complete quests, they can find s
 - **Companion System:** Players may be able to recruit companions who can assist them in combat, providing additional firepower and support.
 
 
-### Part 5: Game Mechanics - Crafting System
+## Part 5: Game Mechanics - Crafting System
 
 #### Crafting Stations
 
@@ -309,7 +308,7 @@ High crafting skills could allow for experimentation and improvisation, 
 - Players can repair their equipment using the Repair skill and appropriate materials.
 - Different levels of degradation can be implemented, with heavily degraded items having significantly reduced stats and requiring more resources to repair.
 
-### Part 6: Game Mechanics - Settlement Building
+## Part 6: Game Mechanics - Settlement Building
 
 #### Building Types
 
@@ -370,7 +369,7 @@ Players can use various strategies to defend their settlement:
 - **NPC guards:** Assigning NPCs to guard duty, providing additional firepower and manpower during attacks.
 - **Player participation:** Players can actively participate in combat during attacks, using their skills and equipment to defend the settlement alongside NPCs.
 
-### Part 8: Game Mechanics - Economy and Trade
+## Part 7: Game Mechanics - Economy and Trade
 
 #### Currency
 
@@ -398,7 +397,7 @@ Players can acquire bottle caps through various means:
 **Economic Fluctuations:**
 - The game could feature a dynamic economy where prices and resource availability fluctuate based on player actions and market conditions.
 
-### Part 9: Game Mechanics - Additional Mechanics
+## Part 8: Game Mechanics - Additional Mechanics
 
 #### Quests
 
@@ -491,9 +490,8 @@ Players can acquire bottle caps through various means:
     - NPCs may react differently to the player based on their reputation with the NPC's faction or past interactions.
         
     - High reputation with an NPC could lead to unique dialogue options, special quests, or discounts when trading.
-        
 
-### Part 10: User Interface and Controls
+## Part 9: User Interface and Controls
 
 #### Overview
 ##### Interface Design
@@ -508,7 +506,6 @@ Players can acquire bottle caps through various means:
 - Players primarily use text commands and keywords to interact with the game world.
 - The game should recognize a variety of synonyms and abbreviations for commands.
 - Implement a context-sensitive command system where available commands change depending on the player's current situation and surroundings.
-
 #### Game interfaces
 
 ##### Player creation interface
@@ -531,7 +528,6 @@ Players can acquire bottle caps through various means:
 ###### Error Handling and Feedback
 - The UI provides clear and informative feedback to players when actions fail or encounter issues.
 - This includes specific error messages, visual or audio cues, and suggestions for alternative actions.
-
 ##### Chat 
 - **Channels:** Public channels for general chat, faction chat, and group chat.
 - **Private messages:** Players can send private messages to individual players.
@@ -541,7 +537,6 @@ Players can acquire bottle caps through various means:
 - **Invite players:** Invite other players to join their group.
 - **Assign roles:** Assign roles within the group, such as leader, scout, or medic.
 - **Coordinate activities:** Share quest objectives, track group resources, and plan strategies.
-
 ##### Trading
 - **Set up personal shops:** Display items for sale and set prices.
 - **Browse other players' shops:** Search for specific items or browse by category.
@@ -562,12 +557,15 @@ Players can acquire bottle caps through various means:
 - Allows players to manage resources, assign jobs to NPCs, and prioritize building construction and upgrades.
 - Displays information about each building's function, upgrade levels, and resource production.
 - Shows the current voting status for prioritized building construction.
+
+##### Settlement building interface
+- displays detailed info about building
+- display available commands and actions in this building (e.g. "Craft" for workbench)
 ##### Combat
-- Displays the battlefield, including enemy positions and environmental hazards.
 - Shows character stats, AP, and available combat actions.
 - Allows players to select targets, choose combat actions, and use items during combat.
 - Provides feedback on combat actions, including damage dealt, critical hits, and status effects
-### Part 11: Technical Specifications
+## Part 10: Technical Specifications
 
 **Game Engine:** Node.js / TypeScript for server-side logic and Redis for data storage. This combination provides a robust and efficient platform for handling the game's backend processes and data management.
 
@@ -675,7 +673,7 @@ Players can acquire bottle caps through various means:
 - Establish clear rules and consequences for cheating, and actively enforce them to maintain a fair and enjoyable gameplay environment for all players.
 
 
-### Part 12: Development Roadmap
+## Part 11: Development Roadmap
 
 **Phase 1: Core Gameplay Development (Estimated Time: 3-4 months)**
 
@@ -720,7 +718,7 @@ Players can acquire bottle caps through various means:
 
 **Note:** These are estimated timeframes and may be subject to change based on development progress and unforeseen challenges.
 
-### Part 13: Marketing and Publishing
+## Part 12: Marketing and Publishing
 
 **Target Market:**
 
@@ -762,6 +760,6 @@ Players can acquire bottle caps through various means:
 - Actively moderate forums and chat channels to address player concerns, resolve conflicts, and ensure a safe and enjoyable experience for everyone.
 - Regularly collect and respond to player feedback to improve the game and address community concerns.
 
-### Part 15: Conclusion
+## Part 13: Conclusion
 
 Wasteland Chronicles is an ambitious project that aims to create a unique and engaging text-based MMORPG experience. By combining elements of exploration, crafting, settlement building, combat, and social interaction, the game offers a rich and immersive world for players to explore and conquer. The detailed design document outlined in this GDD provides a comprehensive roadmap for the development team, ensuring a clear vision and direction for the project. With careful planning, execution, and ongoing community engagement, Wasteland Chronicles has the potential to become a successful and beloved online game that captures the hearts and imaginations of players who seek adventure and camaraderie in a post-apocalyptic world.
