@@ -1,6 +1,7 @@
 ## Wasteland Chronicles Game Design Document (GDD) - Part 1
 
-**Note:** This is the first part of the full GDD formatted in markdown. Due to its length, the document will be split into multiple responses.
+**Note:**
+This is the first part of the full GDD formatted in markdown. Due to its length, the document will be split into multiple responses.
 
 ### Part 1: Introduction and Overview
 
@@ -46,56 +47,56 @@ Wasteland Chronicles offers a unique blend of text-based MMORPG experie
 
 ### Part 2: Game Mechanics - Character System
 
-**S.P.E.C.I.A.L. System:
+#### S.P.E.C.I.A.L. System
 
-- Players allocate 40 points among the 7 attributes during character creation:
-    - **Strength:** Affects physical damage, carrying capacity, and melee weapon effectiveness.
-    - **Perception:** Influences accuracy with ranged weapons, awareness of surroundings, and success in certain skill checks.
-    - **Endurance:** Determines health points, resistance to damage and radiation, and overall physical resilience.
-    - **Charisma:** Affects interactions with NPCs, persuasion attempts, and leadership abilities.
-    - **Intelligence:** Influences skill points gained per level, success in Science and Medicine skills, and understanding of lore and technology.
-    - **Agility:** Determines action points in combat, movement speed, and success in stealth and evasion.
-    - **Luck:** Influences critical hit chance, random encounters, and the outcome of certain events.
-- Each attribute point increases the relevant stat by 1 and affects various gameplay aspects, such as combat damage, skill checks, carrying capacity, and interaction with NPCs.
+Players allocate 40 points among the 7 attributes during character creation:
+- **Strength:** Affects physical damage, carrying capacity, and melee weapon effectiveness.
+- **Perception:** Influences accuracy with ranged weapons, awareness of surroundings, and success in certain skill checks.
+- **Endurance:** Determines health points, resistance to damage and radiation, and overall physical resilience.
+- **Charisma:** Affects interactions with NPCs, persuasion attempts, and leadership abilities.
+- **Intelligence:** Influences skill points gained per level, success in Science and Medicine skills, and understanding of lore and technology.
+- **Agility:** Determines action points in combat, movement speed, and success in stealth and evasion.
+- **Luck:** Influences critical hit chance, random encounters, and the outcome of certain events.
 
-**Skills:**
+Each attribute point increases the relevant stat by 1 and affects various gameplay aspects, such as combat damage, skill checks, carrying capacity, and interaction with NPCs.
 
-- **Combat:**
-    - **Ranged Weapons:** Governs the use of all ranged weapons, including pistols, rifles, SMGs, miniguns, rocket launchers, flamethrowers, laser weapons, and plasma weapons. Higher levels increase accuracy, damage, critical hit chance, and unlock special combat maneuvers and weapon-specific attacks, including energy-based abilities.
-    - **Melee Weapons:** Governs the use of melee weapons and unarmed. Higher levels increase damage, critical hit chance, and unlock special attacks like disarming strikes or power attacks.
+#### Skills
 
-- **Crafting:**
-    - **Repair:** Allows for repairing weapons, armor, and tools. Higher skill levels allow for repairing more complex items.
-    - **Science:** Used for crafting advanced items and researching new technologies. Higher skill levels unlock more complex recipes and research projects.
-    - **Medicine:** Allows for healing injuries and crafting medical supplies. Higher skill levels improve healing effectiveness and unlock advanced medical procedures.
-    - **Engineering:** Used for building and upgrading structures in the settlement. Higher skill levels unlock more advanced structures and upgrades.
-- High level crafting skills allow for experimentation and improvisation, enabling players to create unique modifications or even entirely new items
+**Combat:**
+ - **Ranged Weapons:** Governs the use of all ranged weapons, including pistols, rifles, SMGs, miniguns, rocket launchers, flamethrowers, laser weapons, and plasma weapons. Higher levels increase accuracy, damage, critical hit chance, and unlock special combat maneuvers and weapon-specific attacks, including energy-based abilities.
+  - **Melee Weapons:** Governs the use of melee weapons and unarmed. Higher levels increase damage, critical hit chance, and unlock special attacks like disarming strikes or power attacks.
 
-- **Social:**
-    
-    - **Speech:** Influences NPC interactions and persuasion attempts. Higher skill levels unlock unique dialogue options and increase persuasion success.
-    - **Barter:** Affects trade prices and negotiation success. Higher skill levels lead to better deals and more profitable trades.
-    - **Gambling:** Used for playing games of chance and winning bottle caps. Higher skill levels increase the chance of winning.
-    - **Persuasion:** Influences NPC interactions and quest outcomes. Higher skill levels unlock additional quest options and influence NPC behavior.
-    - **Leadership:** Provides bonuses to group activities and settlement management. Higher skill levels improve group morale, productivity, and settlement efficiency.
+**Crafting:**
+  - **Repair:** Allows for repairing weapons, armor, and tools. Higher skill levels allow for repairing more complex items.
+  - **Science:** Used for crafting advanced items and researching new technologies. Higher skill levels unlock more complex recipes and research projects.
+  - **Medicine:** Allows for healing injuries and crafting medical supplies. Higher skill levels improve healing effectiveness and unlock advanced medical procedures.
+  - **Engineering:** Used for building and upgrading structures in the settlement. Higher skill levels unlock more advanced structures and upgrades.
 
-**Perks:**
+Highlevel crafting skills allow for experimentation and improvisation, enabling players to create unique modifications or even entirely new items
 
-- Perks are unlocked every 2 levels, starting at level 2, and some require specific skill levels or other prerequisites.
+**Social:**
+  - **Speech:** Influences NPC interactions and persuasion attempts. Higher skill levels unlock unique dialogue options and increase persuasion success.
+  - **Barter:** Affects trade prices and negotiation success. Higher skill levels lead to better deals and more profitable trades.
+ - **Gambling:** Used for playing games of chance and winning bottle caps. Higher skill levels increase the chance of winning.
+ - **Persuasion:** Influences NPC interactions and quest outcomes. Higher skill levels unlock additional quest options and influence NPC behavior.
+  - **Leadership:** Provides bonuses to group activities and settlement management. Higher skill levels improve group morale, productivity, and settlement efficiency.
 
-- Perks are categorized into three tiers with increasing power and stricter prerequisites:
-    - **Tier 1:** Basic perks like "Strong Back" (increased carrying capacity) or "First Aid" (improved healing effectiveness).
-    - **Tier 2:** More powerful perks like "Sniper" (increased ranged accuracy and critical chance) or "Chemist" (craft more potent drugs).
-    - **Tier 3:** Highly specialized perks like "Robotics Expert" (control robots) or "Mastermind" (increased influence and persuasion).
+#### Perks
 
-- Perk trees can branch out based on character choices and specializations, allowing for deeper customization and unique builds.
+Perks are unlocked every 2 levels, starting at level 2, and some require specific skill levels or other prerequisites.
 
-- **Additional Perks:** Some perks could require completing challenging or hidden achievements, encouraging exploration and experimentation.
+Perks are categorized into three tiers with increasing power and stricter prerequisites:
+- **Tier 1:** Basic perks like "Strong Back" (increased carrying capacity) or "First Aid" (improved healing effectiveness).
+- **Tier 2:** More powerful perks like "Sniper" (increased ranged accuracy and critical chance) or "Chemist" (craft more potent drugs).
+- **Tier 3:** Highly specialized perks like "Robotics Expert" (control robots) or "Mastermind" (increased influence and persuasion).
 
-**Traits:**
+Perk trees can branch out based on character choices and specializations, allowing for deeper customization and unique builds.
 
-- Players can choose up to 2 traits during character creation, providing significant advantages and disadvantages.
-- Traits can have synergistic effects with specific perks or skills.
+**Additional Perks:** Some perks could require completing challenging or hidden achievements, encouraging exploration and experimentation.
+
+#### Traits
+ Players can choose up to 2 traits during character creation, providing significant advantages and disadvantages.
+Traits can have synergistic effects with specific perks or skills.
 
 **Character Advancement:**
 
@@ -110,85 +111,58 @@ Wasteland Chronicles offers a unique blend of text-based MMORPG experie
 
 ### Part 3: Game Mechanics - Wasteland Exploration
 
-**World Map:**
+#### World Map
 
-- The world map displays 5 routes with increasing difficulty and resource rarity:
-    
-    - **Route to the Safe Haven:** This route leads to a small, fortified settlement that serves as a safe haven for travelers and traders. It provides basic resources, shelter, and opportunities for trade. This route is relatively safe and serves as a starting point for new players.
-    - **Route to the Ruined City:** This route leads to the ruins of a once-thriving city. The city is now filled with dangers, but also holds opportunities for finding advanced loot and remnants of pre-war technology. This route is more challenging than the Safe Haven route and offers greater rewards for experienced players.
-    - **Route to the Radioactive Wasteland:** This route leads to a desolate wasteland with high levels of radiation. Mutated creatures roam the wasteland, and resources are scarce. However, this route also holds the potential for finding rare and valuable materials needed for crafting powerful items. This route is very dangerous and requires careful preparation and protective gear.
-    - **Route to the Forgotten Bunker:** This route leads to a hidden pre-war bunker that has been forgotten by most wasteland inhabitants. The bunker contains valuable technology and information about the past, but it is also protected by challenging puzzles and security systems. This route requires problem-solving skills and combat prowess to overcome the obstacles and access the bunker's secrets.
-    - **Route to the Hidden Oasis:** This route leads to a lush and vibrant oasis hidden within the wasteland. The oasis offers rare resources and a respite from the harsh environment, but it is also guarded by powerful enemies. This route is the most challenging and requires a high level of skill and preparation to overcome the dangers and reap the rewards of the oasis.
-    
+#### Routes
 
+The basic world map displays 5 routes with increasing difficulty and resource rarity:
+  - **Route to the Safe Haven:** This route leads to a small, fortified settlement that serves as a safe haven for travelers and traders. It provides basic resources, shelter, and opportunities for trade. This route is relatively safe and serves as a starting point for new players.
+  - **Route to the Ruined City:** This route leads to the ruins of a once-thriving city. The city is now filled with dangers, but also holds opportunities for finding advanced loot and remnants of pre-war technology. This route is more challenging than the Safe Haven route and offers greater rewards for experienced players.
+  - **Route to the Radioactive Wasteland:** This route leads to a desolate wasteland with high levels of radiation. Mutated creatures roam the wasteland, and resources are scarce. However, this route also holds the potential for finding rare and valuable materials needed for crafting powerful items. This route is very dangerous and requires careful preparation and protective gear.
+ - **Route to the Forgotten Bunker:** This route leads to a hidden pre-war bunker that has been forgotten by most wasteland inhabitants. The bunker contains valuable technology and information about the past, but it is also protected by challenging puzzles and security systems. This route requires problem-solving skills and combat prowess to overcome the obstacles and access the bunker's secrets.
+  - **Route to the Hidden Oasis:** This route leads to a lush and vibrant oasis hidden within the wasteland. The oasis offers rare resources and a respite from the harsh environment, but it is also guarded by powerful enemies. This route is the most challenging and requires a high level of skill and preparation to overcome the dangers and reap the rewards of the oasis.
 As players explore the wasteland and complete quests, they can find special items that reveal information about new routes:
-    
-    - **Old books:** These books might contain forgotten knowledge about pre-war locations or hidden paths through the wasteland.
-        
-    - **Maps:** These maps might show the locations of secret bunkers, hidden oases, or other valuable destinations.
-        
-    - **Hard drives:** These hard drives might contain pre-war data with coordinates or information about secret facilities or hidden caches.
-        
-- Upon finding and deciphering these items, players can unlock new routes on the world map, expanding their exploration options and leading them to new challenges and rewards.
-    
 
-**Locations:**
+ - **Old books:** These books might contain forgotten knowledge about pre-war locations or hidden paths through the wasteland.
+ - **Maps:** These maps might show the locations of secret bunkers, hidden oases, or other valuable destinations.
+- **Hard drives:** These hard drives might contain pre-war data with coordinates or information about secret facilities or hidden caches.
+ Upon finding and deciphering these items, players can unlock new routes on the world map, expanding their exploration options and leading them to new challenges and rewards.
+##### Locations
 
 - Each route's 10 locations are designed to be interconnected, with clear paths leading from one location to the next.
-    
 - Some locations might have multiple exits, offering branching paths or optional areas to explore within the route.
-    
 - Certain paths or exits within a route might be initially blocked, requiring players to solve puzzles, complete quests, or defeat specific enemies to progress.
-    
 
 **Narrative Justification:**
 
 - The routes are established and maintained by experienced wasteland travelers and traders.
-    
 - They represent the safest and quickest paths to reach specific destinations, avoiding unnecessary dangers and obstacles.
-    
 - Due to the harsh conditions of the wasteland, traveling off the established routes is considered extremely dangerous and is not recommended for most travelers.
-    
 
-**Further Routes (Examples):**
+**Example routes to unlock (Examples):**
 
 - **Route to the Pre-War Military Base:** This route can be unlocked by finding a map hidden in the Ruined City. The military base contains valuable pre-war technology, weapons, and information, but it is also heavily guarded by automated defenses and powerful robots.
-    
 - **Route to the Secret Research Facility:** This route can be unlocked by completing a quest for a specific faction. The research facility contains advanced scientific equipment and research data that can be used to develop new technologies and upgrades for settlements.
-    
 - **Route to the Lost Vault:** This route can be unlocked by deciphering a hard drive found in the Forgotten Bunker. The Lost Vault is a legendary pre-war vault that is rumored to contain vast riches and advanced technology. However, it is also said to be protected by deadly traps and security systems.
-    
-
-**Group Completion:**
+##### Group Completion
 
 - Players can form groups to complete routes together, combining their skills and resources to overcome challenges more effectively.
-    
 - Group completion can provide bonuses to experience gain and resource gathering, encouraging cooperative gameplay.
-    
 - **Clarification:** All players in the group need to be present at the final location to complete the route and share the rewards.
-    
 
-**Death Mechanics:**
+##### Death Mechanics
 
 - If a player dies during a route, they will lose all or part of their equipment.
-    
 - The amount of equipment lost can depend on the difficulty of the route and the circumstances of the player's death.
-    
 - Players can return to the location where they died to retrieve their lost equipment, but there is a risk that other players might have looted it before they return.
-    
 - **Clarification:** Equipment loss upon death will be balanced to avoid being overly punishing while still maintaining a sense of risk and consequence.
-    
 
-**Return Timers:**
+##### Return Timers
 
 - After completing the last location on a route, players can return to their base without having to visit all locations in reverse order.
-    
 - This can be done by activating a return timer, which will teleport the player back to their base after a certain amount of time.
-    
 - The duration of the return timer can depend on the length and difficulty of the route.
-    
 - **Clarification:** The return timer duration will be balanced to prevent players from easily bypassing challenges but not be so long that it becomes tedious or frustrating.
-    
 
 **Suggestions for Future Consideration:**
 
@@ -196,12 +170,11 @@ As players explore the wasteland and complete quests, they can find s
 
 ### Part 4: Game Mechanics - Crafting System
 
-**Crafting Stations:**
+#### Crafting Stations
 
 - Different crafting stations are required for different types of crafting:
-    
     - **Workbench:** Used for crafting and modifying weapons, armor, and tools.
-        
+
     - **Chemistry Station:** Used for crafting drugs, medical supplies, and explosives.
         
     - **Cooking Station:** Used for preparing food and drinks with various effects.
