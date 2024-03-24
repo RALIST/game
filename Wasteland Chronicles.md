@@ -43,31 +43,31 @@ Wasteland Chronicles offers a unique blend of text-based MMORPG experie
 
 ### Attributes
 
-#### Strength
+#### 1. Strength
 - Affects physical damage dealt in melee combat.
 - Determines carrying capacity.
 - Influences success in Strength-based skill checks (e.g., breaking down doors).
-#### Perception
+#### 2. Perception
 - Influences accuracy with ranged weapons.
 - Affects awareness of surroundings and enemy detection.
 - Determines success in Perception-based skill checks (e.g., spotting hidden objects).
-#### Endurance
+#### 3. Endurance
 - Determines maximum health points (HP).
 - Influences resistance to damage and radiation.
 - Affects physical resilience and fatigue recovery.
-#### Charisma
+#### 4. Charisma
 - Influences interactions with NPCs and persuasion attempts.
 - Affects prices in bartering and trading.
 - Determines success in Charisma-based skill checks (e.g., leading a group).
-#### Intelligence
+#### 5. Intelligence
 - Determines the number of skill points gained per level.
 - Influences success in Science and Medicine skills.
 - Affects understanding of lore and technology.
-#### Agility
+#### 6. Agility
 - Determines Action Points (AP) available in combat.
 - Influences movement speed and evasion.
 - Determines success in Agility-based skill checks (e.g., sneaking).
-#### Luck
+#### 7. Luck
 - Influences critical hit chance in combat.
 - Affects the outcome of random encounters and events.
 - Determines success in Luck-based skill checks (e.g., gambling).
