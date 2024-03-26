@@ -262,6 +262,32 @@ Traits can have synergistic effects with specific perks or skills.
 - **Faction Conflicts:** War erupts between major factions, changing the political landscape and creating new opportunities and dangers for players.
 - **Emergence of New Threats:** A new and powerful enemy emerges in the wasteland, requiring players to band together and find ways to defeat it.
 
+Examples
+- **Radioactive Storm:**
+    - **Trigger:** Random chance, increased likelihood near irradiated areas.
+    - **Duration:** 24 hours.
+    - **Consequences:** Increased radiation levels in affected areas, higher chance of mutations, reduced effectiveness of healing items.
+    - **Player Strategies:** Seek shelter, wear protective gear, consume radiation-reducing consumables.
+
+- **Traveling Merchant Caravan:**
+    - **Trigger:** Random chance, appears in settlements with active Trading Posts.
+    - **Duration:** 48 hours.
+    - **Consequences:** Offers rare and valuable items for trade, including unique weapons, armor, blueprints, and resources.
+    - **Player Strategies:** Visit the caravan to trade for desired items, potentially stockpile resources to take advantage of the opportunity.
+
+- **Mutant Outbreak:**
+    - **Trigger:** Random chance, increased likelihood near areas with high radiation levels.
+    - **Duration:** Ongoing until the mutant threat is neutralized.
+    - **Consequences:** Powerful mutant creatures appear in the wasteland, threatening settlements and travelers.
+    - **Player Strategies:** Collaborate with other players to hunt down mutants, defend settlements, and potentially find ways to control or eliminate the source of the outbreak.
+
+- **Mechanics:**
+    - Dynamic events are integrated into the game world through:
+        - **Visual and audio cues:** Changes in weather, environment, and NPC behavior indicate the occurrence of events.
+        - **Notifications:** Players receive notifications when events occur in their vicinity or impact their settlements.
+        - **Quest updates:** Events can trigger new quests or modify existing quest objectives, creating a dynamic narrative experience.
+        - **Impact on gameplay:** Events can affect combat difficulty, resource availability, travel routes, and settlement management, requiring players to adapt their strategies and collaborate with others.
+
 These dynamic events keep the game world feeling alive and unpredictable, requiring players to adapt their strategies and work together to overcome new challenges.
 
 Integrate lore elements into the game world through environmental storytelling, quest dialogues, and NPC interactions.
@@ -838,6 +864,7 @@ Players can acquire bottle caps through various means:
 - This may involve translating game text, interface elements, and marketing materials.
 
 ### Community Management
+
 - Establish clear community guidelines and rules to foster a positive and inclusive environment for all players.
 - Actively moderate forums and chat channels to address player concerns, resolve conflicts, and ensure a safe and enjoyable experience for everyone.
 - Regularly collect and respond to player feedback to improve the game and address community concerns.
