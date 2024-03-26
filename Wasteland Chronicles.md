@@ -538,6 +538,7 @@ Settlements can grow and expand by:
 - **Researching new technologies:** The Research Lab allows players to research new technologies that can improve various aspects of the settlement.
 
 #### Settlement Defense Strategies
+
 - Attacks are initiated based on settlement wealth and defense level. Players receive notifications of impending attacks and can participate in defense through a mini-game or automated defense mechanisms based on their settlement's infrastructure.
 - Players can use various strategies to defend their settlement
 
@@ -614,6 +615,7 @@ Players can acquire bottle caps through various means:
 - Quest rewards include experience, bottle caps, unique items, and reputation gains.
 
 #### Categories
+
 - **Main story quests:** These quests advance the main narrative and reveal the secrets of the game world.
 - **Side quests:** These quests provide additional challenges, rewards, and opportunities to explore the world and interact with NPCs.
 - **Faction quests:** These quests are specific to individual factions and can improve the player's reputation with that faction.
