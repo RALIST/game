@@ -1,0 +1,2 @@
+- **Map Exploration**: The 10x10 map is divided into 100 locations, including 10 cities and various wilderness areas. Players can explore these locations to find resources, encounter enemies, or discover quests.
+- **Quest System**: Quests can be found in cities, given by NPCs, or discovered in special locations. Completing quests rewards players with experience, items, and cryptocurrency or NFT collectables.

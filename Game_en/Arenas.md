@@ -1,0 +1,1 @@
+- **Arena Battles**: The four arenas cater to different levels of players. Winning battles in the arena can increase a player's fame, providing access to exclusive quests and rewards.
