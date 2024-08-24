@@ -1,2 +1,0 @@
-- **NFT Collectables and Items**: Items found or earned in the game are NFTs that can be traded with other players or sold on the marketplace. This includes weapons, armor, resources, and special collectables.
-- **Cryptocurrency Rewards**: Completing high-level dungeons, winning arena battles, or achieving certain milestones can reward players with the game's cryptocurrency, which can be used for in-game purchases or traded on exchanges.
