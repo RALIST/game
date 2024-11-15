@@ -148,7 +148,7 @@ Tier 3 (Level 6, Requires Specific Skill Levels and/or Quest Completion)
 - **Carrying Capacity:** Determined by Strength attribute.
 - **Item Stacking:** Similar items stack up to a maximum quantity (e.g., 10 units per stack).
 
-### Part 3: Wasteland Exploration (Expanded)
+### Part 3: Wasteland Exploration
 #### Game World
 **Lore and Story:**
 - **Setting:** The game is set in a post-apocalyptic world where the remnants of society struggle to rebuild after a devastating nuclear war. The environment is harsh and unforgiving, with radiation zones, mutated creatures, and scarce resources.
